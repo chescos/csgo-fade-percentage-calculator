@@ -1,7 +1,6 @@
 {
   "extends": "./tsconfig.json",
   "include": [
-    "__tests__/Greeter.test.ts",
     "**/*.ts",
     "**/*.js"
   ]
