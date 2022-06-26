@@ -1,6 +1,6 @@
 import RandomNumberGenerator from '../../src/modules/RandomNumberGenerator';
 
-test('Random Number Generator Float', () => {
+test('Generate random float', () => {
   const randomNumberGenerator = new RandomNumberGenerator();
 
   randomNumberGenerator.setSeed(72);

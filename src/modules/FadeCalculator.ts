@@ -1,9 +1,34 @@
 import RandomNumberGenerator from './RandomNumberGenerator';
 
+interface WeaponConfig {
+  pattern_offset_x_start: number,
+  pattern_offset_x_end: number,
+  pattern_offset_y_start: number,
+  pattern_offset_y_end: number,
+  pattern_rotate_start: number,
+  pattern_rotate_end: number,
+}
+
+interface FadePercentage {
+  seed: number,
+  percentage: number,
+}
+
+interface WeaponFadePercentage {
+  weapon: string,
+  percentages: Array<FadePercentage>
+}
+
 class FadeCalculator {
   weapons: Array<string>;
 
-  configs: any;
+  reversedWeapons: Array<string>;
+
+  configs: {
+    [key: string]: WeaponConfig,
+  };
+
+  minPercentage: number;
 
   constructor() {
     this.weapons = [
@@ -34,6 +59,12 @@ class FadeCalculator {
       'Ursus Knife',
     ];
 
+    this.reversedWeapons = [
+      'AWP',
+      'Karambit',
+      'Talon Knife',
+    ];
+
     this.configs = {
       default: {
         pattern_offset_x_start: -0.7,
@@ -52,16 +83,37 @@ class FadeCalculator {
         pattern_rotate_end: -65,
       },
     };
+
+    this.minPercentage = 80;
   }
 
-  calculateFadePercentages(weapon: string): Array<number> {
+  getFadePercentage(weapon: string, seed: number): FadePercentage {
+    const percentages = this.getFadePercentages(weapon);
+
+    return percentages[seed];
+  }
+
+  getAllFadePercentages(): Array<WeaponFadePercentage> {
+    const result: Array<WeaponFadePercentage> = [];
+
+    this.weapons.forEach((weapon) => {
+      result.push({
+        weapon,
+        percentages: this.getFadePercentages(weapon),
+      });
+    });
+
+    return result;
+  }
+
+  getFadePercentages(weapon: string): Array<FadePercentage> {
     if (!this.weapons.includes(weapon)) {
-      return [];
+      throw new Error(`The weapon "${weapon}" is currently not supported.`);
     }
 
     const config = this.configs[weapon] || this.configs.default;
 
-    const rawResults = [] as Array<number>;
+    const rawResults: Array<number> = [];
 
     for (let i = 0; i < 1000; i += 1) {
       const randomNumberGenerator = new RandomNumberGenerator();
@@ -69,15 +121,13 @@ class FadeCalculator {
       randomNumberGenerator.randomFloat(config.pattern_offset_x_start, config.pattern_offset_x_end);
       randomNumberGenerator.randomFloat(config.pattern_offset_y_start, config.pattern_offset_y_end);
 
-      rawResults[i] = Math.abs(randomNumberGenerator.randomFloat(
+      rawResults.push(Math.abs(randomNumberGenerator.randomFloat(
         config.pattern_rotate_start,
         config.pattern_rotate_end,
-      ));
+      )));
     }
 
-    const percentageResults = [] as Array<number>;
-
-    const isReversed = ['Karambit', 'Talon Knife', 'AWP'].includes(weapon);
+    const isReversed: boolean = this.reversedWeapons.includes(weapon);
 
     let bestResult: number;
     let worstResult: number;
@@ -90,21 +140,16 @@ class FadeCalculator {
       worstResult = Math.max(...rawResults);
     }
 
-    const resultRange = worstResult - bestResult;
+    const resultRange: number = worstResult - bestResult;
 
-    rawResults.forEach((result, i) => {
-      percentageResults[i] = (worstResult - result) / resultRange;
-    });
+    const percentageResults: Array<number> = rawResults.map(
+      (rawResult) => (worstResult - rawResult) / resultRange,
+    );
 
-    const minPercentage = 80;
-
-    const cleanResults = [] as Array<number>;
-
-    percentageResults.forEach((result, i) => {
-      cleanResults[i] = minPercentage + (result * (100 - minPercentage));
-    });
-
-    return cleanResults;
+    return percentageResults.map((percentageResult, i) => ({
+      seed: i,
+      percentage: this.minPercentage + (percentageResult * (100 - this.minPercentage)),
+    }));
   }
 }
 
