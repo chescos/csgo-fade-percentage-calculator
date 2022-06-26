@@ -1,18 +1,14 @@
-import FadeCalculator from '../../src/modules/FadeCalculator';
+import { FadeCalculator } from '../../src';
 
 test('Get specific fade percentage for weapon', () => {
-  const fadeCalculator = new FadeCalculator();
-
-  const percentage = fadeCalculator.getFadePercentage('MP7', 5);
+  const percentage = FadeCalculator.getFadePercentage('MP7', 5);
 
   expect(percentage.percentage).toBe(81.6511271761842);
   expect(percentage.seed).toBe(5);
 });
 
 test('Get all fade percentages for weapon', () => {
-  const fadeCalculator = new FadeCalculator();
-
-  const karambitPercentages = fadeCalculator.getFadePercentages('Karambit');
+  const karambitPercentages = FadeCalculator.getFadePercentages('Karambit');
 
   expect(karambitPercentages[3].seed).toBe(3);
   expect(karambitPercentages[0].percentage).toBe(95.1320370612319);
@@ -20,7 +16,7 @@ test('Get all fade percentages for weapon', () => {
   expect(karambitPercentages[763].percentage).toBe(80);
   expect(karambitPercentages[999].percentage).toBe(93.08311985704788);
 
-  const bayonetPercentages = fadeCalculator.getFadePercentages('Bayonet');
+  const bayonetPercentages = FadeCalculator.getFadePercentages('Bayonet');
 
   expect(karambitPercentages[999].seed).toBe(999);
   expect(bayonetPercentages[0].percentage).toBe(84.8679629387681);
@@ -30,9 +26,7 @@ test('Get all fade percentages for weapon', () => {
 });
 
 test('Get all fade percentages for all weapons', () => {
-  const fadeCalculator = new FadeCalculator();
-
-  const weaponFadePercentages = fadeCalculator.getAllFadePercentages();
+  const weaponFadePercentages = FadeCalculator.getAllFadePercentages();
 
   const awp = weaponFadePercentages.find((weaponFadePercentage) => weaponFadePercentage.weapon === 'AWP');
 

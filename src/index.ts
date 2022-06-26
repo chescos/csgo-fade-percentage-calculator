@@ -1,3 +1,4 @@
-import FadeCalculator from './modules/FadeCalculator';
+import FadeCalculatorModule from './modules/FadeCalculator';
 
-export default FadeCalculator;
+// eslint-disable-next-line import/prefer-default-export
+export const FadeCalculator = new FadeCalculatorModule();
