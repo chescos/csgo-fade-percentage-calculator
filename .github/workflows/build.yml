@@ -1,7 +1,7 @@
 name: Build
 on: [push]
 jobs:
-  Build:
+  Create-Build:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
