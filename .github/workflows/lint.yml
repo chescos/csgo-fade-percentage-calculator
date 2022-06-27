@@ -1,0 +1,14 @@
+name: Lint
+on: [push]
+jobs:
+  Run-Linter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: |
+          npm install
+      - name: Run linter
+        run: |
+          npm run lint
