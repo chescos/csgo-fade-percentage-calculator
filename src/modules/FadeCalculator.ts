@@ -87,6 +87,10 @@ class FadeCalculator {
     this.minPercentage = 80;
   }
 
+  getSupportedWeapons(): Array<String> {
+    return this.weapons;
+  }
+
   getFadePercentage(weapon: string, seed: number): FadePercentage {
     const percentages = this.getFadePercentages(weapon);
 
@@ -94,16 +98,10 @@ class FadeCalculator {
   }
 
   getAllFadePercentages(): Array<WeaponFadePercentage> {
-    const result: Array<WeaponFadePercentage> = [];
-
-    this.weapons.forEach((weapon) => {
-      result.push({
-        weapon,
-        percentages: this.getFadePercentages(weapon),
-      });
-    });
-
-    return result;
+    return this.weapons.map((weapon) => ({
+      weapon,
+      percentages: this.getFadePercentages(weapon),
+    }));
   }
 
   getFadePercentages(weapon: string): Array<FadePercentage> {

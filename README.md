@@ -34,6 +34,9 @@ const karambitFadePercentages = FadeCalculator.getFadePercentages('Karambit');
 
 // Get the fade percentage for the AWP and the seed 123.
 const awpFadePercentage = FadeCalculator.getFadePercentage('AWP', 123);
+
+// Get all supported weapons.
+const supportedWeapons = FadeCalculator.getSupportedWeapons();
 ```
 
 ## 📜 How It Works
@@ -50,7 +53,7 @@ between 80 and 100, where the lowest rotation value is a 100% Fade, and the high
 The whole process just involves simple math, and it is superior to alternative methods such as image pixel color
 analysis for various reasons:
 
-- The resulting Fade percentage values are 100% accurate
+- The resulting Fade percentage values are much more accurate
 - The methodology can be easily verified and reproduced
 - The algorithm is simple and fast
 
@@ -70,3 +73,32 @@ very accurate to determine a fade value:
 - [CS.MONEY](https://cs.money/)
 - [BUFF163](https://buff.163.com/)
 - [BroSkins](https://broskins.com/)
+
+## ❓ Frequently Asked Questions
+
+### How accurate are the generated fade percentages?
+
+The generated fade percentage values are basically as accurate as they can get. Fade percentages don't really exist
+in CS:GO itself, it's a community driven value which has been historically computed through image analysis of
+screenshots. However, this method is not very accurate as it depends on many presumptions of the used algorithm.
+This library just reverses the algorithm which Valve uses internally to apply the pattern on the weapon, and our only
+presumption is a fade percentage range between 80% and 100%, with 80% being the worst and 100% being the best value.
+
+### Why do some websites display different fade percentages?
+
+Some websites may use different algorithms to calculate fade percentages, often based on pixel color analysis of
+screenshot images. Those algorithms can come to very different conclusions about what seed value corresponds to which
+fade percentage. Hopefully, the community will shift from image analysis to the open-source algorithm used by this
+library, creating a stronger consensus.
+
+### Why are gloves not supported?
+
+Glove skins are handled differently in CS:GO. The method used by this library to compute fade values does not work
+for glove skins, because their patterns shift more unpredictably, similar to Case Hardened skins.
+
+## ⭐ Credits
+
+A big thanks goes to [Step7750](https://github.com/Step7750), the work on this library was inspired by
+[his research](https://www.reddit.com/r/GlobalOffensiveTrade/comments/b7g538/psa_how_paint_seed_actually_works_technical/)
+about CS:GO paint seeds. He also implemented Valve's uniform random number generator
+[in Go](https://github.com/Step7750/UniformRandom), which was ported to TypeScript for this project.

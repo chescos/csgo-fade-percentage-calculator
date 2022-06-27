@@ -1,5 +1,13 @@
 import { FadeCalculator } from '../../src';
 
+test('Get all supported weapons', () => {
+  const supportedWeapons = FadeCalculator.getSupportedWeapons();
+
+  expect(Array.isArray(supportedWeapons)).toBe(true);
+  expect(supportedWeapons.length).toBeGreaterThan(0);
+  expect(supportedWeapons).toContain('Shadow Daggers');
+});
+
 test('Get specific fade percentage for weapon', () => {
   const percentage = FadeCalculator.getFadePercentage('MP7', 5);
 
