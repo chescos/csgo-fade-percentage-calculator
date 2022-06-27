@@ -1,8 +1,11 @@
 # CS:GO Fade Percentage Calculator
 
-![npm](https://img.shields.io/npm/v/csgo-fade-percentage-calculator)
-![npm](https://img.shields.io/npm/dm/csgo-fade-percentage-calculator)
-![GitHub](https://img.shields.io/github/license/chescos/csgo-fade-percentage-calculator)
+![NPM Version](https://img.shields.io/npm/v/csgo-fade-percentage-calculator)
+![NPM Bundle Size](https://img.shields.io/bundlephobia/min/csgo-fade-percentage-calculator?label=size)
+![NPM Downloads](https://img.shields.io/npm/dm/csgo-fade-percentage-calculator)
+![GitHub License](https://img.shields.io/github/license/chescos/csgo-fade-percentage-calculator)
+![GitHub Test Workflow Status](https://img.shields.io/github/workflow/status/chescos/csgo-fade-percentage-calculator/Test/master?label=tests)
+![GitHub Build Workflow Status](https://img.shields.io/github/workflow/status/chescos/csgo-fade-percentage-calculator/Build/master?label=build)
 
 Calculate the Fade percentage value of a CS:GO skin based on a given seed value. Supporting all
 [Fade skins](https://csgoskins.gg/families/fade) except for gloves. Easily convert every paint seed
