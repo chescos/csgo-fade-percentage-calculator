@@ -1,6 +1,7 @@
 # CS:GO Fade Percentage Calculator
 
 ![NPM Version](https://img.shields.io/npm/v/csgo-fade-percentage-calculator)
+![NPM Bundle Size](https://img.shields.io/bundlephobia/min/csgo-fade-percentage-calculator?label=size)
 ![NPM Downloads](https://img.shields.io/npm/dm/csgo-fade-percentage-calculator)
 ![GitHub License](https://img.shields.io/github/license/chescos/csgo-fade-percentage-calculator)
 ![GitHub Test Workflow Status](https://img.shields.io/github/workflow/status/chescos/csgo-fade-percentage-calculator/Test/master?label=tests)
