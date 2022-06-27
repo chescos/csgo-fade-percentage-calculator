@@ -34,6 +34,9 @@ const karambitFadePercentages = FadeCalculator.getFadePercentages('Karambit');
 
 // Get the fade percentage for the AWP and the seed 123.
 const awpFadePercentage = FadeCalculator.getFadePercentage('AWP', 123);
+
+// Get all supported weapons.
+const supportedWeapons = FadeCalculator.getSupportedWeapons();
 ```
 
 ## 📜 How It Works
@@ -70,3 +73,10 @@ very accurate to determine a fade value:
 - [CS.MONEY](https://cs.money/)
 - [BUFF163](https://buff.163.com/)
 - [BroSkins](https://broskins.com/)
+
+## ⭐ Credits
+
+Thanks to [Step7750](https://github.com/Step7750), the work on this library was inspired by
+[his research](https://www.reddit.com/r/GlobalOffensiveTrade/comments/b7g538/psa_how_paint_seed_actually_works_technical/)
+about CS:GO paint seeds. He also implemented Valve's uniform random number generator
+[in Go](https://github.com/Step7750/UniformRandom), which was ported to TypeScript for this project.
