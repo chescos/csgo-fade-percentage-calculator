@@ -80,7 +80,7 @@ very accurate to determine a fade value:
 ## 💻 Other Programming Languages
 
 You're not using Node, JavaScript, or TypeScript for your project? We have a
-[pre-generated JSON file](https://raw.githubusercontent.com/chescos/csgo-fade-percentage-calculator/master/generared/fade-percentages.json)
+[pre-generated JSON file](https://raw.githubusercontent.com/chescos/csgo-fade-percentage-calculator/master/generated/fade-percentages.json)
 for you that contains the fade percentages of all supported weapons. You can download it with any programming language
 into your project to store and process the values there.
 
