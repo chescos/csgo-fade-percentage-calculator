@@ -65,6 +65,7 @@ this package:
 
 - [Skinport](https://skinport.com/)
 - [CSGOSKINS.GG](https://csgoskins.gg/)
+- [SkinsMonkey](https://skinsmonkey.com/)
 
 Other sites are currently known to use their own algorithms, probably based on image analysis. These sites come
 to different conclusions which paint seed corresponds to which fade value, as pixel color analysis is not
