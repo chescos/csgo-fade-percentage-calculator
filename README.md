@@ -77,6 +77,15 @@ very accurate to determine a fade value:
 - [SkinBid](https://skinbid.com/)
 - [BroSkins](https://broskins.com/)
 
+## 💻 Other Programming Languages
+
+You're not using Node, JavaScript, or TypeScript for your project? We have a
+[pre-generated JSON file](https://raw.githubusercontent.com/chescos/csgo-fade-percentage-calculator/master/generared/fade-percentages.json)
+for you that contains the fade percentages of all supported weapons. You can download it with any programming language
+into your project to store and process the values there.
+
+Alternatively, feel free to check out the source code of this library and port it into your preferred language.
+
 ## ❓ Frequently Asked Questions
 
 ### How accurate are the generated fade percentages?

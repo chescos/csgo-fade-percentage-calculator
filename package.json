@@ -1,6 +1,6 @@
 {
   "name": "csgo-fade-percentage-calculator",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "author": "chescos",
   "license": "MIT",
   "description": "Calculate the Fade percentage of a CS:GO skin using its paint seed.",
@@ -12,11 +12,12 @@
     "csgo fade"
   ],
   "scripts": {
+    "generate": "ts-node generate.ts",
     "test": "jest --config jest.config.js",
     "build": "tsc",
     "lint": "eslint src",
     "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint",
+    "prepublishOnly": "npm test && npm run lint && npm run generate",
     "preversion": "npm run lint",
     "version": "git add -A src",
     "postversion": "git push && git push --tags"
@@ -38,6 +39,7 @@
     "eslint-plugin-import": "^2.26.0",
     "jest": "^28.1.1",
     "ts-jest": "^28.0.5",
+    "ts-node": "^10.8.1",
     "typescript": "^4.7.4"
   }
 }
