@@ -73,6 +73,8 @@ very accurate to determine a fade value:
 
 - [CS.MONEY](https://cs.money/)
 - [BUFF163](https://buff.163.com/)
+- [BUFF Market](https://buff.market/)
+- [SkinBid](https://skinbid.com/)
 - [BroSkins](https://broskins.com/)
 
 ## ❓ Frequently Asked Questions
