@@ -115,14 +115,33 @@ class FadeCalculator {
 
     for (let i = 0; i < 1000; i += 1) {
       const randomNumberGenerator = new RandomNumberGenerator();
-      randomNumberGenerator.setSeed(i);
-      randomNumberGenerator.randomFloat(config.pattern_offset_x_start, config.pattern_offset_x_end);
-      randomNumberGenerator.randomFloat(config.pattern_offset_y_start, config.pattern_offset_y_end);
 
-      rawResults.push(Math.abs(randomNumberGenerator.randomFloat(
+      randomNumberGenerator.setSeed(i);
+
+      const xOffset: number = randomNumberGenerator.randomFloat(
+        config.pattern_offset_x_start,
+        config.pattern_offset_x_end,
+      );
+
+      randomNumberGenerator.randomFloat(
+        config.pattern_offset_y_start,
+        config.pattern_offset_y_end,
+      );
+
+      const rotation: number = randomNumberGenerator.randomFloat(
         config.pattern_rotate_start,
         config.pattern_rotate_end,
-      )));
+      );
+
+      let rawResult: number;
+
+      if (config.pattern_offset_x_start !== config.pattern_offset_x_end) {
+        rawResult = rotation * xOffset;
+      } else {
+        rawResult = rotation;
+      }
+
+      rawResults.push(Math.abs(rawResult));
     }
 
     const isReversed: boolean = this.reversedWeapons.includes(weapon);

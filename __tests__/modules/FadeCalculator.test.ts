@@ -9,10 +9,18 @@ test('Get all supported weapons', () => {
 });
 
 test('Get specific fade percentage for weapon', () => {
-  const percentage = FadeCalculator.getFadePercentage('MP7', 5);
+  const lowestMp7Percentage = FadeCalculator.getFadePercentage('MP7', 182);
+  const highestMp7Percentage = FadeCalculator.getFadePercentage('MP7', 80);
+  const midMp7Percentage = FadeCalculator.getFadePercentage('MP7', 329);
 
-  expect(percentage.percentage).toBe(81.6511271761842);
-  expect(percentage.seed).toBe(5);
+  expect(lowestMp7Percentage.percentage).toBe(80);
+  expect(lowestMp7Percentage.seed).toBe(182);
+
+  expect(highestMp7Percentage.percentage).toBe(100);
+  expect(highestMp7Percentage.seed).toBe(80);
+
+  expect(midMp7Percentage.percentage).toBe(91.81044998736732);
+  expect(midMp7Percentage.seed).toBe(329);
 });
 
 test('Get all fade percentages for weapon', () => {
