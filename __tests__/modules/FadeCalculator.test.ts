@@ -39,6 +39,11 @@ test('Get all fade percentages for weapon', () => {
   expect(bayonetPercentages[412].percentage).toBe(80);
   expect(bayonetPercentages[763].percentage).toBe(100);
   expect(bayonetPercentages[999].percentage).toBe(86.91688014295212);
+  expect(bayonetPercentages).toHaveLength(1000);
+
+  const mac10Percentages = FadeCalculator.getFadePercentages('MAC-10');
+
+  expect(mac10Percentages).toHaveLength(1001);
 });
 
 test('Get all fade percentages for all weapons', () => {

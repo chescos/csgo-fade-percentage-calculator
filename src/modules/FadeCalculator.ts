@@ -24,6 +24,8 @@ class FadeCalculator {
 
   reversedWeapons: Array<string>;
 
+  tradeUpWeapons: Array<string>;
+
   configs: {
     [key: string]: WeaponConfig,
   };
@@ -63,6 +65,15 @@ class FadeCalculator {
       'AWP',
       'Karambit',
       'Talon Knife',
+    ];
+
+    this.tradeUpWeapons = [
+      'AWP',
+      'Glock-18',
+      'MAC-10',
+      'MP7',
+      'R8 Revolver',
+      'UMP-45',
     ];
 
     this.configs = {
@@ -113,7 +124,11 @@ class FadeCalculator {
 
     const rawResults: Array<number> = [];
 
-    for (let i = 0; i < 1000; i += 1) {
+    const maxSeed: number = this.tradeUpWeapons.includes(weapon)
+      ? 1000
+      : 999;
+
+    for (let i = 0; i <= maxSeed; i += 1) {
       const randomNumberGenerator = new RandomNumberGenerator();
 
       randomNumberGenerator.setSeed(i);
