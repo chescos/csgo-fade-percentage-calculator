@@ -4,17 +4,24 @@
   "author": "chescos",
   "license": "MIT",
   "description": "Calculate the Fade percentage of a CS:GO skin using its paint seed.",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.min.mjs",
+  "unpkg": "dist/index.umd.min.js",
+  "types": "dist/index.d.ts",
   "keywords": [
     "csgo",
     "fade",
     "csgo fade"
   ],
   "scripts": {
+    "clean": "rm -rf dist",
     "generate": "ts-node generate.ts",
     "test": "jest --config jest.config.js",
-    "build": "tsc",
+    "build": "npm run clean && tsc && npm run bundle:esm && npm run bundle:esm:min && npm run bundle:umd && npm run bundle:umd:min",
+    "bundle:esm": "rollup dist/index.js --file dist/index.mjs --format esm",
+    "bundle:esm:min": "terser --ecma 6 --compress --mangle --module -o dist/index.min.mjs -- dist/index.mjs",
+    "bundle:umd": "rollup dist/index.js --file dist/index.umd.js --format umd --name FadeCalculator",
+    "bundle:umd:min": "terser --ecma 6 --compress --mangle -o dist/index.umd.min.js -- dist/index.umd.js",
     "lint": "eslint src",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint && npm run generate",
@@ -27,7 +34,7 @@
     "url": "git+https://github.com/chescos/csgo-fade-percentage-calculator.git"
   },
   "files": [
-    "lib/**/*"
+    "dist/**/*"
   ],
   "devDependencies": {
     "@types/jest": "^28.1.3",
@@ -38,6 +45,8 @@
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "jest": "^28.1.1",
+    "rollup": "^2.77.0",
+    "terser": "^5.14.2",
     "ts-jest": "^28.0.5",
     "ts-node": "^10.8.1",
     "typescript": "^4.7.4"
