@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://unpkg.com/vue-slider-component@4.1.0-beta.1/theme/default.css">
+  <script src="https://cdn.tailwindcss.com/3.1.4"></script>
+  <script src="https://unpkg.com/vue@3.2.37/dist/vue.global.js"></script>
+  <script src="https://unpkg.com/vue-slider-component@4.1.0-beta.1/dist/vue-slider-component.umd.min.js"></script>
+  <script src="https://unpkg.com/csgo-fade-percentage-calculator@latest/dist/umd/index.min.js"></script>
+  <meta name="description" content="Check the Fade percentage values of all CS:GO fade skins. Easily search for the fade percentage of any seed value.">
+  <title>CS:GO Fades</title>
+</head>
+<body class="antialiased bg-gray-800 flex flex-col min-h-screen text-white overflow-y-scroll">
+<div id="app">
+  <div class="p-4 sm:p-12">
+    <!-- Top Menu -->
+    <div class="flex flex-wrap items-center justify-center">
+      <!-- Slider -->
+      <div class="grow w-full sm:w-auto p-8 sm:p-0">
+        <vue-slider
+          v-model="activeFade"
+          :dot-size="20"
+          :width="'auto'"
+          :height="6"
+          :min="80.0"
+          :max="100.0"
+          :interval="0.1"
+          :tooltip="'always'"
+          :tooltip-placement="'top'"
+          :tooltip-formatter="tooltipFormatter"
+          @change="onSliderChange"
+        ></vue-slider>
+      </div>
+      <!-- Weapon Select -->
+      <div class="flex-none ml-0 sm:ml-12">
+        <div class="relative">
+          <select
+            class="w-48 appearance-none rounded p-3 bg-gray-700 text-white leading-tight focus:outline-none focus:shadow-outline"
+            v-model="activeWeapon"
+            aria-label="Weapon"
+          >
+            <option v-for="(weapon, index) in weapons" :value="index">
+              {{ weapon.name}}
+            </option>
+          </select>
+          <span class="absolute text-gray-200 inset-y-0 right-0 flex items-center pr-3">
+          <svg class="w-3 h-3" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 7">
+            <path
+              d="M11.261 2.02A.96.96 0 009.941.623L6 4.35 2.06.623A.96.96 0 00.74 2.02l4.573 4.33a1 1 0 001.374 0l4.574-4.33z"
+            ></path>
+          </svg>
+        </span>
+        </div>
+      </div>
+      <!-- Seed Input -->
+      <div class="flex-none ml-4">
+        <input
+          type="number"
+          min="0"
+          max="1000"
+          step="1"
+          class="w-24 appearance-none rounded p-3 bg-gray-700 text-white leading-tight focus:outline-none focus:shadow-outline"
+          placeholder="Seed"
+          aria-label="Seed"
+          v-model="activeSeed"
+        >
+      </div>
+    </div>
+    <!-- Image -->
+    <div class="my-20">
+      <img class="block w-auto mx-auto" style="max-height: 50vh;" :src="screenshotUrl" alt="Screenshot">
+    </div>
+    <!-- Table -->
+    <table class="rounded table-fixed overflow-hidden w-full">
+      <thead class="bg-gray-700 text-white text-left text-sm font-medium">
+      <tr>
+        <th class="px-4 py-3 uppercase">Rank</th>
+        <th class="px-4 py-3 uppercase">Seed</th>
+        <th class="px-4 py-3 uppercase">Fade</th>
+      </tr>
+      </thead>
+      <tbody class="text-gray-400 divide-y divide-gray-700">
+        <tr v-for="(fadePercentage, index) in activePercentages">
+          <td class="p-4">#{{ (index + 1) }}</td>
+          <td class="p-4">{{ fadePercentage.seed}}</td>
+          <td class="p-4">{{ fadePercentage.percentage.toFixed(4)}}%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</body>
+
+<script>
+  const allFadePercentages = FadeCalculator.FadeCalculator.getAllFadePercentages();
+
+  const unsupportedWeapons = ['MP7'];
+
+  const { createApp } = Vue;
+
+  createApp({
+    components: {
+      VueSlider: window['vue-slider-component'],
+    },
+
+    data() {
+      return {
+        activeWeapon: 0,
+        activeFade: 80.0,
+        activeSeed: null,
+        imageCache: {},
+        weapons: allFadePercentages
+          .filter((weaponFadePercentage) => !unsupportedWeapons.includes(weaponFadePercentage.weapon))
+          .map((weaponFadePercentage) => ({
+            name: weaponFadePercentage.weapon,
+            slug: weaponFadePercentage.weapon.toLowerCase().replace(' ', '-'),
+            percentages: weaponFadePercentage.percentages,
+          })),
+      };
+    },
+
+    computed: {
+      screenshotUrl() {
+        const slug = this.weapons[this.activeWeapon].slug;
+        const num = Math.round(this.activeFade * 10);
+        const baseUrl = `https://cdn.csgoskins.gg/public/images/fades/v1/${slug}/${num}.png`;
+
+        const baseUrl64 = window.btoa(baseUrl)
+          .replace(/\+/g, '~')
+          .replace(/\//g, '_')
+          .replace(/=/g, '-');
+
+        const prefix = 'fades';
+        const width = 'auto';
+        const height = 'auto';
+        const quality = 85;
+        const trim = 'notrim';
+        const sig = 'csgofades';
+        const format = this.supportsWebp ? 'webp' : 'png';
+
+        const key = `public/uih/${prefix}/${baseUrl64}/${width}/${height}/${quality}/${trim}/${sig}.${format}`;
+
+        return `https://cdn.csgoskins.gg/${key}`;
+      },
+
+      activePercentages() {
+        return this.weapons[this.activeWeapon].percentages
+          .filter((percentage) => percentage.percentage.toFixed(1) === this.activeFade.toFixed(1))
+          .sort((a, b) => b.percentage - a.percentage);
+      },
+
+      supportsWebp() {
+        const el = document.createElement('canvas');
+
+        if (!!(el.getContext && el.getContext('2d'))) {
+          return el.toDataURL('image/webp').indexOf('data:image/webp') === 0;
+        }
+
+        return false;
+      }
+    },
+
+    watch: {
+      activeSeed(newSeed) {
+        this.setFadeToSeed(newSeed);
+      },
+
+      activeWeapon() {
+        this.setFadeToSeed(this.activeSeed);
+      },
+
+      screenshotUrl(newScreenshotUrl) {
+        // Chrome automatically cancels image requests when the image source changes before the image
+        // was loaded. We can prevent this by creating image elements with the source and store them in memory.
+        if (!this.imageCache[newScreenshotUrl]) {
+          const img = new Image();
+          img.src = newScreenshotUrl;
+          this.imageCache[newScreenshotUrl] = img;
+        }
+      },
+    },
+
+    methods: {
+      setFadeToSeed(seed) {
+        const isValidSeed = seed !== null
+          && seed !== ''
+          && this.weapons[this.activeWeapon].percentages[seed] !== undefined;
+
+        if (isValidSeed) {
+          const percentage = this.weapons[this.activeWeapon].percentages[seed];
+
+          this.activeFade = parseFloat(percentage.percentage.toFixed(1));
+        }
+      },
+
+      onSliderChange() {
+        this.activeSeed = null;
+      },
+
+      tooltipFormatter(value) {
+        return `${value.toFixed(1)}%`;
+      },
+    },
+  }).mount('#app');
+</script>
+
+</html>

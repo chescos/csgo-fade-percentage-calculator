@@ -1,6 +1,5 @@
 .idea/
 /node_modules
 /dist
-index.html
 fiddle.ts
 test.js
