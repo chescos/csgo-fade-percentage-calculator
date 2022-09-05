@@ -66,6 +66,7 @@ this package:
 - [Skinport](https://skinport.com/)
 - [CSGOSKINS.GG](https://csgoskins.gg/)
 - [SkinsMonkey](https://skinsmonkey.com/)
+- [SkinBid](https://skinbid.com/)
 
 Other sites are currently known to use their own algorithms, probably based on image analysis. These sites come
 to different conclusions which paint seed corresponds to which fade value, as pixel color analysis is not
@@ -74,7 +75,6 @@ very accurate to determine a fade value:
 - [CS.MONEY](https://cs.money/)
 - [BUFF163](https://buff.163.com/)
 - [BUFF Market](https://buff.market/)
-- [SkinBid](https://skinbid.com/)
 - [BroSkins](https://broskins.com/)
 
 ## 💻 Other Programming Languages
