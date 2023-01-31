@@ -179,12 +179,17 @@ class FadeCalculator {
       (rawResult) => (worstResult - rawResult) / resultRange,
     );
 
-    const sortedPercentageResults: Array<number> = [...percentageResults].sort((a, b) => a - b);
+    const sortedPercentageResults: Array<number> = [...percentageResults].sort(
+      (a, b) => a - b,
+    );
 
     return percentageResults.map((percentageResult, i) => ({
       seed: i,
       percentage: this.minPercentage + (percentageResult * (100 - this.minPercentage)),
-      ranking: Math.min(sortedPercentageResults.indexOf(percentageResult), 999-sortedPercentageResults.indexOf(percentageResult)) + 1,
+      ranking: Math.min(
+        sortedPercentageResults.indexOf(percentageResult) + 1,
+        sortedPercentageResults.length - sortedPercentageResults.indexOf(percentageResult),
+      ),
     }));
   }
 }
