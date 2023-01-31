@@ -6,7 +6,7 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="https://unpkg.com/vue-slider-component@4.1.0-beta.1/theme/default.css">
   <script src="https://cdn.tailwindcss.com/3.1.4"></script>
-  <script src="https://unpkg.com/vue@3.2.37/dist/vue.global.js"></script>
+  <script src="https://unpkg.com/vue@3.2.45/dist/vue.global.js"></script>
   <script src="https://unpkg.com/vue-slider-component@4.1.0-beta.1/dist/vue-slider-component.umd.min.js"></script>
   <script src="https://unpkg.com/csgo-fade-percentage-calculator@latest/dist/umd/index.min.js"></script>
   <meta name="description" content="Check the Fade percentage values of all CS:GO fade skins. Easily search for the fade percentage of any seed value.">
@@ -82,8 +82,8 @@
       </tr>
       </thead>
       <tbody class="text-gray-400 divide-y divide-gray-700">
-        <tr v-for="(fadePercentage, index) in activePercentages">
-          <td class="p-4">#{{ (index + 1) }}</td>
+        <tr v-for="fadePercentage in activePercentages" :class="{ 'text-white': fadePercentage.seed === activeSeed }">
+          <td class="p-4">#{{ fadePercentage.ranking }}</td>
           <td class="p-4">{{ fadePercentage.seed}}</td>
           <td class="p-4">{{ fadePercentage.percentage.toFixed(4)}}%</td>
         </tr>
@@ -148,7 +148,7 @@
       activePercentages() {
         return this.weapons[this.activeWeapon].percentages
           .filter((percentage) => percentage.percentage.toFixed(1) === this.activeFade.toFixed(1))
-          .sort((a, b) => b.percentage - a.percentage);
+          .sort((a, b) => a.ranking - b.ranking);
       },
 
       supportsWebp() {
