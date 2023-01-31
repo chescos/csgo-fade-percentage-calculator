@@ -15,18 +15,22 @@ test('Get specific fade percentage for weapon', () => {
 
   expect(lowestMp7Percentage.percentage).toBe(80);
   expect(lowestMp7Percentage.seed).toBe(182);
+  expect(lowestMp7Percentage.ranking).toBe(1);
 
   expect(highestMp7Percentage.percentage).toBe(100);
   expect(highestMp7Percentage.seed).toBe(80);
+  expect(highestMp7Percentage.ranking).toBe(1);
 
   expect(midMp7Percentage.percentage).toBe(91.81044998736732);
   expect(midMp7Percentage.seed).toBe(329);
+  expect(midMp7Percentage.ranking).toBe(415);
 });
 
 test('Get all fade percentages for weapon', () => {
   const karambitPercentages = FadeCalculator.getFadePercentages('Karambit');
 
   expect(karambitPercentages[3].seed).toBe(3);
+  expect(karambitPercentages[3].ranking).toBe(233);
   expect(karambitPercentages[0].percentage).toBe(95.1320370612319);
   expect(karambitPercentages[412].percentage).toBe(100);
   expect(karambitPercentages[763].percentage).toBe(80);
@@ -35,6 +39,7 @@ test('Get all fade percentages for weapon', () => {
   const bayonetPercentages = FadeCalculator.getFadePercentages('Bayonet');
 
   expect(karambitPercentages[999].seed).toBe(999);
+  expect(karambitPercentages[999].ranking).toBe(352);
   expect(bayonetPercentages[0].percentage).toBe(84.8679629387681);
   expect(bayonetPercentages[412].percentage).toBe(80);
   expect(bayonetPercentages[763].percentage).toBe(100);

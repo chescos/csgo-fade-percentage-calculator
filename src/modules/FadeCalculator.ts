@@ -12,6 +12,7 @@ interface WeaponConfig {
 interface FadePercentage {
   seed: number,
   percentage: number,
+  ranking: number,
 }
 
 interface WeaponFadePercentage {
@@ -178,9 +179,17 @@ class FadeCalculator {
       (rawResult) => (worstResult - rawResult) / resultRange,
     );
 
+    const sortedPercentageResults: Array<number> = [...percentageResults].sort(
+      (a, b) => a - b,
+    );
+
     return percentageResults.map((percentageResult, i) => ({
       seed: i,
       percentage: this.minPercentage + (percentageResult * (100 - this.minPercentage)),
+      ranking: Math.min(
+        sortedPercentageResults.indexOf(percentageResult) + 1,
+        sortedPercentageResults.length - sortedPercentageResults.indexOf(percentageResult),
+      ),
     }));
   }
 }
