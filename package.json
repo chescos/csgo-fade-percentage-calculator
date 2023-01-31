@@ -20,20 +20,16 @@
     "csgo fade"
   ],
   "scripts": {
-    "clean": "rm -rf dist",
-    "generate": "ts-node generate.ts",
     "test": "jest --config jest.config.js",
+    "lint": "eslint src",
+    "generate": "ts-node generate.ts",
     "build": "npm run clean && npm run bundle:cjs && npm run bundle:esm && npm run bundle:umd && npm run bundle:umd:min",
     "bundle:cjs": "tsc --module commonjs --target es6 --outDir dist/cjs",
     "bundle:esm": "tsc --module es6 --target es6 --outDir dist/esm",
     "bundle:umd": "rollup dist/esm/index.js --file dist/umd/index.js --format umd --name FadeCalculator",
     "bundle:umd:min": "terser --ecma 6 --compress --mangle -o dist/umd/index.min.js -- dist/umd/index.js",
-    "lint": "eslint src",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint && npm run generate",
-    "preversion": "npm run lint",
-    "version": "git add -A src",
-    "postversion": "git push && git push --tags"
+    "clean": "rm -rf dist",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
