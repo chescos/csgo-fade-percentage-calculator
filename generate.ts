@@ -1,10 +1,21 @@
 import * as path from 'path';
 import * as fs from 'fs';
-import { FadeCalculator } from './src';
+import { FadeCalculator, AmberFadeCalculator } from './src';
 
-const weaponFadePercentages = FadeCalculator.getAllFadePercentages();
+const config = [
+  {
+    percentages: FadeCalculator.getAllFadePercentages(),
+    type: 'fade',
+  },
+  {
+    percentages: AmberFadeCalculator.getAllFadePercentages(),
+    type: 'amber-fade',
+  },
+];
 
-const fileContent = JSON.stringify(weaponFadePercentages, null, 2);
-const filePath = path.join(__dirname, './generated/fade-percentages.json');
+config.forEach((entry) => {
+  const fileContent = JSON.stringify(entry.percentages, null, 2);
+  const filePath = path.join(__dirname, `./generated/${entry.type}-percentages.json`);
 
-fs.writeFileSync(filePath, fileContent);
+  fs.writeFileSync(filePath, fileContent);
+});
