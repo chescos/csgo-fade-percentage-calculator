@@ -1,6 +1,6 @@
 import * as path from 'path';
 import * as fs from 'fs';
-import { FadeCalculator, AmberFadeCalculator } from './src';
+import { FadeCalculator, AmberFadeCalculator, AcidFadeCalculator } from './src';
 
 const config = [
   {
@@ -10,6 +10,10 @@ const config = [
   {
     percentages: AmberFadeCalculator.getAllFadePercentages(),
     type: 'amber-fade',
+  },
+  {
+    percentages: AcidFadeCalculator.getAllFadePercentages(),
+    type: 'acid-fade',
   },
 ];
 
