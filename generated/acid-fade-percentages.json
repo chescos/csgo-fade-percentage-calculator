@@ -1,0 +1,5012 @@
+[
+  {
+    "weapon": "SSG 08",
+    "percentages": [
+      {
+        "seed": 0,
+        "percentage": 86.58311851785098,
+        "ranking": 233
+      },
+      {
+        "seed": 1,
+        "percentage": 86.58311851785098,
+        "ranking": 233
+      },
+      {
+        "seed": 2,
+        "percentage": 91.21728309263274,
+        "ranking": 420
+      },
+      {
+        "seed": 3,
+        "percentage": 91.16496135981647,
+        "ranking": 426
+      },
+      {
+        "seed": 4,
+        "percentage": 84.00393070623048,
+        "ranking": 93
+      },
+      {
+        "seed": 5,
+        "percentage": 82.25310830554672,
+        "ranking": 37
+      },
+      {
+        "seed": 6,
+        "percentage": 92.45524207610431,
+        "ranking": 314
+      },
+      {
+        "seed": 7,
+        "percentage": 85.10785757829304,
+        "ranking": 150
+      },
+      {
+        "seed": 8,
+        "percentage": 81.06603262674284,
+        "ranking": 13
+      },
+      {
+        "seed": 9,
+        "percentage": 83.54089443780347,
+        "ranking": 78
+      },
+      {
+        "seed": 10,
+        "percentage": 93.73594640495034,
+        "ranking": 238
+      },
+      {
+        "seed": 11,
+        "percentage": 91.06429690577211,
+        "ranking": 438
+      },
+      {
+        "seed": 12,
+        "percentage": 97.52708233147409,
+        "ranking": 48
+      },
+      {
+        "seed": 13,
+        "percentage": 91.17501746775832,
+        "ranking": 424
+      },
+      {
+        "seed": 14,
+        "percentage": 88.8852578405619,
+        "ranking": 385
+      },
+      {
+        "seed": 15,
+        "percentage": 92.31720142625173,
+        "ranking": 327
+      },
+      {
+        "seed": 16,
+        "percentage": 82.62306621595316,
+        "ranking": 47
+      },
+      {
+        "seed": 17,
+        "percentage": 93.04909441345673,
+        "ranking": 275
+      },
+      {
+        "seed": 18,
+        "percentage": 92.30924431991208,
+        "ranking": 328
+      },
+      {
+        "seed": 19,
+        "percentage": 94.26829322092892,
+        "ranking": 195
+      },
+      {
+        "seed": 20,
+        "percentage": 85.29953679672798,
+        "ranking": 161
+      },
+      {
+        "seed": 21,
+        "percentage": 90.88067911478618,
+        "ranking": 451
+      },
+      {
+        "seed": 22,
+        "percentage": 96.6640094683708,
+        "ranking": 77
+      },
+      {
+        "seed": 23,
+        "percentage": 89.45288206058736,
+        "ranking": 427
+      },
+      {
+        "seed": 24,
+        "percentage": 90.50374668562576,
+        "ranking": 490
+      },
+      {
+        "seed": 25,
+        "percentage": 88.83825562506092,
+        "ranking": 383
+      },
+      {
+        "seed": 26,
+        "percentage": 86.68680793485996,
+        "ranking": 241
+      },
+      {
+        "seed": 27,
+        "percentage": 85.71681547882436,
+        "ranking": 185
+      },
+      {
+        "seed": 28,
+        "percentage": 84.553682637065,
+        "ranking": 115
+      },
+      {
+        "seed": 29,
+        "percentage": 92.08788621194783,
+        "ranking": 343
+      },
+      {
+        "seed": 30,
+        "percentage": 90.63862032466953,
+        "ranking": 473
+      },
+      {
+        "seed": 31,
+        "percentage": 90.83329061748118,
+        "ranking": 457
+      },
+      {
+        "seed": 32,
+        "percentage": 82.88725707978122,
+        "ranking": 53
+      },
+      {
+        "seed": 33,
+        "percentage": 96.25843055686192,
+        "ranking": 86
+      },
+      {
+        "seed": 34,
+        "percentage": 92.71515520489766,
+        "ranking": 298
+      },
+      {
+        "seed": 35,
+        "percentage": 94.15361486200325,
+        "ranking": 203
+      },
+      {
+        "seed": 36,
+        "percentage": 93.93584873924094,
+        "ranking": 220
+      },
+      {
+        "seed": 37,
+        "percentage": 93.3078483042032,
+        "ranking": 259
+      },
+      {
+        "seed": 38,
+        "percentage": 94.24515969218292,
+        "ranking": 196
+      },
+      {
+        "seed": 39,
+        "percentage": 86.6345783859736,
+        "ranking": 237
+      },
+      {
+        "seed": 40,
+        "percentage": 93.25500212561923,
+        "ranking": 262
+      },
+      {
+        "seed": 41,
+        "percentage": 99.10879662807675,
+        "ranking": 16
+      },
+      {
+        "seed": 42,
+        "percentage": 87.35628654485004,
+        "ranking": 277
+      },
+      {
+        "seed": 43,
+        "percentage": 93.43078523363397,
+        "ranking": 255
+      },
+      {
+        "seed": 44,
+        "percentage": 87.09053207667344,
+        "ranking": 255
+      },
+      {
+        "seed": 45,
+        "percentage": 89.88070562775704,
+        "ranking": 466
+      },
+      {
+        "seed": 46,
+        "percentage": 95.0369380253483,
+        "ranking": 143
+      },
+      {
+        "seed": 47,
+        "percentage": 94.98845942305567,
+        "ranking": 149
+      },
+      {
+        "seed": 48,
+        "percentage": 82.65498542363211,
+        "ranking": 49
+      },
+      {
+        "seed": 49,
+        "percentage": 87.66198725371453,
+        "ranking": 293
+      },
+      {
+        "seed": 50,
+        "percentage": 88.6926701573295,
+        "ranking": 371
+      },
+      {
+        "seed": 51,
+        "percentage": 90.8177975365117,
+        "ranking": 461
+      },
+      {
+        "seed": 52,
+        "percentage": 89.94036509276522,
+        "ranking": 471
+      },
+      {
+        "seed": 53,
+        "percentage": 88.4879050747019,
+        "ranking": 354
+      },
+      {
+        "seed": 54,
+        "percentage": 84.98400319764949,
+        "ranking": 141
+      },
+      {
+        "seed": 55,
+        "percentage": 92.4169922267622,
+        "ranking": 321
+      },
+      {
+        "seed": 56,
+        "percentage": 91.31698005410752,
+        "ranking": 410
+      },
+      {
+        "seed": 57,
+        "percentage": 97.47670921112507,
+        "ranking": 49
+      },
+      {
+        "seed": 58,
+        "percentage": 87.94536752667774,
+        "ranking": 308
+      },
+      {
+        "seed": 59,
+        "percentage": 91.24493263390785,
+        "ranking": 417
+      },
+      {
+        "seed": 60,
+        "percentage": 81.80543964455138,
+        "ranking": 26
+      },
+      {
+        "seed": 61,
+        "percentage": 92.8670223048459,
+        "ranking": 286
+      },
+      {
+        "seed": 62,
+        "percentage": 83.49832060009592,
+        "ranking": 77
+      },
+      {
+        "seed": 63,
+        "percentage": 88.7793005293954,
+        "ranking": 378
+      },
+      {
+        "seed": 64,
+        "percentage": 98.03184018894143,
+        "ranking": 37
+      },
+      {
+        "seed": 65,
+        "percentage": 93.45839439040412,
+        "ranking": 253
+      },
+      {
+        "seed": 66,
+        "percentage": 90.6326178555676,
+        "ranking": 474
+      },
+      {
+        "seed": 67,
+        "percentage": 94.03521751713875,
+        "ranking": 213
+      },
+      {
+        "seed": 68,
+        "percentage": 84.21535539874638,
+        "ranking": 102
+      },
+      {
+        "seed": 69,
+        "percentage": 89.65195617586721,
+        "ranking": 446
+      },
+      {
+        "seed": 70,
+        "percentage": 87.29967141449407,
+        "ranking": 272
+      },
+      {
+        "seed": 71,
+        "percentage": 85.34323950011168,
+        "ranking": 163
+      },
+      {
+        "seed": 72,
+        "percentage": 89.39019219462334,
+        "ranking": 422
+      },
+      {
+        "seed": 73,
+        "percentage": 98.96773499245685,
+        "ranking": 19
+      },
+      {
+        "seed": 74,
+        "percentage": 89.6271007915348,
+        "ranking": 444
+      },
+      {
+        "seed": 75,
+        "percentage": 85.02753700823128,
+        "ranking": 143
+      },
+      {
+        "seed": 76,
+        "percentage": 92.39797632888845,
+        "ranking": 323
+      },
+      {
+        "seed": 77,
+        "percentage": 87.16929038268721,
+        "ranking": 257
+      },
+      {
+        "seed": 78,
+        "percentage": 88.6123269435803,
+        "ranking": 362
+      },
+      {
+        "seed": 79,
+        "percentage": 95.04755129699117,
+        "ranking": 142
+      },
+      {
+        "seed": 80,
+        "percentage": 99.45567455556534,
+        "ranking": 10
+      },
+      {
+        "seed": 81,
+        "percentage": 92.18498919678375,
+        "ranking": 335
+      },
+      {
+        "seed": 82,
+        "percentage": 93.06288734686598,
+        "ranking": 274
+      },
+      {
+        "seed": 83,
+        "percentage": 86.61625100431084,
+        "ranking": 236
+      },
+      {
+        "seed": 84,
+        "percentage": 96.71043092233342,
+        "ranking": 75
+      },
+      {
+        "seed": 85,
+        "percentage": 89.43519054269123,
+        "ranking": 425
+      },
+      {
+        "seed": 86,
+        "percentage": 95.11209851292335,
+        "ranking": 137
+      },
+      {
+        "seed": 87,
+        "percentage": 97.44869546421849,
+        "ranking": 50
+      },
+      {
+        "seed": 88,
+        "percentage": 92.02726997445538,
+        "ranking": 346
+      },
+      {
+        "seed": 89,
+        "percentage": 97.28318170124129,
+        "ranking": 55
+      },
+      {
+        "seed": 90,
+        "percentage": 88.72642554720684,
+        "ranking": 373
+      },
+      {
+        "seed": 91,
+        "percentage": 95.53400451738312,
+        "ranking": 121
+      },
+      {
+        "seed": 92,
+        "percentage": 89.81196202340958,
+        "ranking": 460
+      },
+      {
+        "seed": 93,
+        "percentage": 93.39970963731194,
+        "ranking": 256
+      },
+      {
+        "seed": 94,
+        "percentage": 98.03272827799994,
+        "ranking": 36
+      },
+      {
+        "seed": 95,
+        "percentage": 94.58309296582155,
+        "ranking": 172
+      },
+      {
+        "seed": 96,
+        "percentage": 88.99524489310414,
+        "ranking": 393
+      },
+      {
+        "seed": 97,
+        "percentage": 88.59182953349968,
+        "ranking": 361
+      },
+      {
+        "seed": 98,
+        "percentage": 84.66360870978419,
+        "ranking": 121
+      },
+      {
+        "seed": 99,
+        "percentage": 94.34862021930009,
+        "ranking": 190
+      },
+      {
+        "seed": 100,
+        "percentage": 94.45657881875894,
+        "ranking": 183
+      },
+      {
+        "seed": 101,
+        "percentage": 89.94350520722611,
+        "ranking": 472
+      },
+      {
+        "seed": 102,
+        "percentage": 89.89217821530706,
+        "ranking": 467
+      },
+      {
+        "seed": 103,
+        "percentage": 97.81901404813121,
+        "ranking": 42
+      },
+      {
+        "seed": 104,
+        "percentage": 95.11655347452574,
+        "ranking": 136
+      },
+      {
+        "seed": 105,
+        "percentage": 97.43303162650324,
+        "ranking": 51
+      },
+      {
+        "seed": 106,
+        "percentage": 85.00590883538523,
+        "ranking": 142
+      },
+      {
+        "seed": 107,
+        "percentage": 99.52691179495332,
+        "ranking": 8
+      },
+      {
+        "seed": 108,
+        "percentage": 89.4400054868445,
+        "ranking": 426
+      },
+      {
+        "seed": 109,
+        "percentage": 96.79230166019136,
+        "ranking": 70
+      },
+      {
+        "seed": 110,
+        "percentage": 91.20729261569004,
+        "ranking": 421
+      },
+      {
+        "seed": 111,
+        "percentage": 92.42960991150981,
+        "ranking": 319
+      },
+      {
+        "seed": 112,
+        "percentage": 89.76665734173123,
+        "ranking": 458
+      },
+      {
+        "seed": 113,
+        "percentage": 91.66591725790282,
+        "ranking": 379
+      },
+      {
+        "seed": 114,
+        "percentage": 93.911760350111,
+        "ranking": 222
+      },
+      {
+        "seed": 115,
+        "percentage": 84.90902250629912,
+        "ranking": 133
+      },
+      {
+        "seed": 116,
+        "percentage": 91.97140904901948,
+        "ranking": 347
+      },
+      {
+        "seed": 117,
+        "percentage": 93.85492390424695,
+        "ranking": 227
+      },
+      {
+        "seed": 118,
+        "percentage": 94.20554774234489,
+        "ranking": 200
+      },
+      {
+        "seed": 119,
+        "percentage": 90.65436615072593,
+        "ranking": 471
+      },
+      {
+        "seed": 120,
+        "percentage": 87.47743297358163,
+        "ranking": 285
+      },
+      {
+        "seed": 121,
+        "percentage": 88.24318774432602,
+        "ranking": 330
+      },
+      {
+        "seed": 122,
+        "percentage": 92.92624998836733,
+        "ranking": 283
+      },
+      {
+        "seed": 123,
+        "percentage": 88.00206653576197,
+        "ranking": 312
+      },
+      {
+        "seed": 124,
+        "percentage": 95.0185729916481,
+        "ranking": 146
+      },
+      {
+        "seed": 125,
+        "percentage": 90.68054691701096,
+        "ranking": 469
+      },
+      {
+        "seed": 126,
+        "percentage": 88.64364135522327,
+        "ranking": 365
+      },
+      {
+        "seed": 127,
+        "percentage": 85.76601945197812,
+        "ranking": 188
+      },
+      {
+        "seed": 128,
+        "percentage": 94.05745926734089,
+        "ranking": 210
+      },
+      {
+        "seed": 129,
+        "percentage": 83.26956919609415,
+        "ranking": 67
+      },
+      {
+        "seed": 130,
+        "percentage": 90.53752044954719,
+        "ranking": 484
+      },
+      {
+        "seed": 131,
+        "percentage": 93.776922623607,
+        "ranking": 233
+      },
+      {
+        "seed": 132,
+        "percentage": 91.01502526624618,
+        "ranking": 442
+      },
+      {
+        "seed": 133,
+        "percentage": 90.43362558526198,
+        "ranking": 497
+      },
+      {
+        "seed": 134,
+        "percentage": 86.42030652190454,
+        "ranking": 228
+      },
+      {
+        "seed": 135,
+        "percentage": 91.79252216335657,
+        "ranking": 367
+      },
+      {
+        "seed": 136,
+        "percentage": 92.08730103692277,
+        "ranking": 344
+      },
+      {
+        "seed": 137,
+        "percentage": 97.58481233359093,
+        "ranking": 46
+      },
+      {
+        "seed": 138,
+        "percentage": 89.18878152506406,
+        "ranking": 404
+      },
+      {
+        "seed": 139,
+        "percentage": 91.6610384793463,
+        "ranking": 380
+      },
+      {
+        "seed": 140,
+        "percentage": 96.44241384040812,
+        "ranking": 84
+      },
+      {
+        "seed": 141,
+        "percentage": 92.55894849533209,
+        "ranking": 306
+      },
+      {
+        "seed": 142,
+        "percentage": 90.09444611979654,
+        "ranking": 483
+      },
+      {
+        "seed": 143,
+        "percentage": 88.145141153275,
+        "ranking": 323
+      },
+      {
+        "seed": 144,
+        "percentage": 86.98369767194967,
+        "ranking": 251
+      },
+      {
+        "seed": 145,
+        "percentage": 94.86604288689787,
+        "ranking": 154
+      },
+      {
+        "seed": 146,
+        "percentage": 83.4221202810084,
+        "ranking": 72
+      },
+      {
+        "seed": 147,
+        "percentage": 92.55653278226964,
+        "ranking": 307
+      },
+      {
+        "seed": 148,
+        "percentage": 91.5594587885322,
+        "ranking": 385
+      },
+      {
+        "seed": 149,
+        "percentage": 87.66765619160064,
+        "ranking": 294
+      },
+      {
+        "seed": 150,
+        "percentage": 91.42756782287445,
+        "ranking": 395
+      },
+      {
+        "seed": 151,
+        "percentage": 84.63130706464685,
+        "ranking": 117
+      },
+      {
+        "seed": 152,
+        "percentage": 85.05142144861763,
+        "ranking": 145
+      },
+      {
+        "seed": 153,
+        "percentage": 88.71569217438292,
+        "ranking": 372
+      },
+      {
+        "seed": 154,
+        "percentage": 92.99756674906034,
+        "ranking": 280
+      },
+      {
+        "seed": 155,
+        "percentage": 93.19151967324903,
+        "ranking": 266
+      },
+      {
+        "seed": 156,
+        "percentage": 90.62874323276404,
+        "ranking": 476
+      },
+      {
+        "seed": 157,
+        "percentage": 92.1163490681667,
+        "ranking": 340
+      },
+      {
+        "seed": 158,
+        "percentage": 85.98778263624571,
+        "ranking": 203
+      },
+      {
+        "seed": 159,
+        "percentage": 87.67698742098572,
+        "ranking": 295
+      },
+      {
+        "seed": 160,
+        "percentage": 86.27502973275314,
+        "ranking": 220
+      },
+      {
+        "seed": 161,
+        "percentage": 94.60092397668649,
+        "ranking": 169
+      },
+      {
+        "seed": 162,
+        "percentage": 85.22914785963985,
+        "ranking": 157
+      },
+      {
+        "seed": 163,
+        "percentage": 88.65300052912914,
+        "ranking": 366
+      },
+      {
+        "seed": 164,
+        "percentage": 91.67814652940095,
+        "ranking": 377
+      },
+      {
+        "seed": 165,
+        "percentage": 88.38158492168772,
+        "ranking": 340
+      },
+      {
+        "seed": 166,
+        "percentage": 84.81876891313668,
+        "ranking": 128
+      },
+      {
+        "seed": 167,
+        "percentage": 88.48252518498208,
+        "ranking": 352
+      },
+      {
+        "seed": 168,
+        "percentage": 97.78194134490998,
+        "ranking": 43
+      },
+      {
+        "seed": 169,
+        "percentage": 89.25303493139154,
+        "ranking": 409
+      },
+      {
+        "seed": 170,
+        "percentage": 87.37141193565574,
+        "ranking": 279
+      },
+      {
+        "seed": 171,
+        "percentage": 87.62314468893724,
+        "ranking": 292
+      },
+      {
+        "seed": 172,
+        "percentage": 98.87622888708003,
+        "ranking": 20
+      },
+      {
+        "seed": 173,
+        "percentage": 92.44742122529503,
+        "ranking": 317
+      },
+      {
+        "seed": 174,
+        "percentage": 88.43420459531647,
+        "ranking": 347
+      },
+      {
+        "seed": 175,
+        "percentage": 88.65731083344431,
+        "ranking": 368
+      },
+      {
+        "seed": 176,
+        "percentage": 91.19373665738608,
+        "ranking": 422
+      },
+      {
+        "seed": 177,
+        "percentage": 89.53034519197993,
+        "ranking": 438
+      },
+      {
+        "seed": 178,
+        "percentage": 80.8561976201543,
+        "ranking": 7
+      },
+      {
+        "seed": 179,
+        "percentage": 89.67390121819254,
+        "ranking": 449
+      },
+      {
+        "seed": 180,
+        "percentage": 89.01946837145081,
+        "ranking": 396
+      },
+      {
+        "seed": 181,
+        "percentage": 94.30996544570202,
+        "ranking": 191
+      },
+      {
+        "seed": 182,
+        "percentage": 80,
+        "ranking": 1
+      },
+      {
+        "seed": 183,
+        "percentage": 82.27287519168077,
+        "ranking": 38
+      },
+      {
+        "seed": 184,
+        "percentage": 86.10908247034621,
+        "ranking": 207
+      },
+      {
+        "seed": 185,
+        "percentage": 83.49139666235462,
+        "ranking": 76
+      },
+      {
+        "seed": 186,
+        "percentage": 93.14495338122606,
+        "ranking": 270
+      },
+      {
+        "seed": 187,
+        "percentage": 90.18487051332353,
+        "ranking": 487
+      },
+      {
+        "seed": 188,
+        "percentage": 81.26885608619536,
+        "ranking": 15
+      },
+      {
+        "seed": 189,
+        "percentage": 86.30338069700464,
+        "ranking": 222
+      },
+      {
+        "seed": 190,
+        "percentage": 88.4717405118787,
+        "ranking": 351
+      },
+      {
+        "seed": 191,
+        "percentage": 91.32016152338387,
+        "ranking": 409
+      },
+      {
+        "seed": 192,
+        "percentage": 86.77211082152947,
+        "ranking": 245
+      },
+      {
+        "seed": 193,
+        "percentage": 89.09690189854103,
+        "ranking": 401
+      },
+      {
+        "seed": 194,
+        "percentage": 91.59951253845496,
+        "ranking": 383
+      },
+      {
+        "seed": 195,
+        "percentage": 83.11997248645058,
+        "ranking": 63
+      },
+      {
+        "seed": 196,
+        "percentage": 89.86788332168655,
+        "ranking": 464
+      },
+      {
+        "seed": 197,
+        "percentage": 93.04627553851978,
+        "ranking": 276
+      },
+      {
+        "seed": 198,
+        "percentage": 93.1900870493946,
+        "ranking": 267
+      },
+      {
+        "seed": 199,
+        "percentage": 91.33227123071833,
+        "ranking": 408
+      },
+      {
+        "seed": 200,
+        "percentage": 89.47053173538015,
+        "ranking": 429
+      },
+      {
+        "seed": 201,
+        "percentage": 95.66220226568609,
+        "ranking": 114
+      },
+      {
+        "seed": 202,
+        "percentage": 88.46025396641207,
+        "ranking": 350
+      },
+      {
+        "seed": 203,
+        "percentage": 85.75864137008934,
+        "ranking": 186
+      },
+      {
+        "seed": 204,
+        "percentage": 88.1231362700405,
+        "ranking": 320
+      },
+      {
+        "seed": 205,
+        "percentage": 95.83480132223403,
+        "ranking": 99
+      },
+      {
+        "seed": 206,
+        "percentage": 80.98943743346695,
+        "ranking": 9
+      },
+      {
+        "seed": 207,
+        "percentage": 95.00626179678723,
+        "ranking": 148
+      },
+      {
+        "seed": 208,
+        "percentage": 88.13481738123227,
+        "ranking": 321
+      },
+      {
+        "seed": 209,
+        "percentage": 93.10687827036168,
+        "ranking": 273
+      },
+      {
+        "seed": 210,
+        "percentage": 98.1839444095955,
+        "ranking": 32
+      },
+      {
+        "seed": 211,
+        "percentage": 95.67837813673069,
+        "ranking": 112
+      },
+      {
+        "seed": 212,
+        "percentage": 96.0948169771056,
+        "ranking": 94
+      },
+      {
+        "seed": 213,
+        "percentage": 84.07453784923337,
+        "ranking": 96
+      },
+      {
+        "seed": 214,
+        "percentage": 91.94412355212526,
+        "ranking": 350
+      },
+      {
+        "seed": 215,
+        "percentage": 92.30460227697247,
+        "ranking": 329
+      },
+      {
+        "seed": 216,
+        "percentage": 90.01007556725924,
+        "ranking": 476
+      },
+      {
+        "seed": 217,
+        "percentage": 86.9077705544206,
+        "ranking": 248
+      },
+      {
+        "seed": 218,
+        "percentage": 89.00542618607925,
+        "ranking": 394
+      },
+      {
+        "seed": 219,
+        "percentage": 85.21387808389936,
+        "ranking": 156
+      },
+      {
+        "seed": 220,
+        "percentage": 88.32776242939909,
+        "ranking": 336
+      },
+      {
+        "seed": 221,
+        "percentage": 87.95036080444129,
+        "ranking": 309
+      },
+      {
+        "seed": 222,
+        "percentage": 86.31540968742338,
+        "ranking": 223
+      },
+      {
+        "seed": 223,
+        "percentage": 96.6778158553069,
+        "ranking": 76
+      },
+      {
+        "seed": 224,
+        "percentage": 97.58061705052327,
+        "ranking": 47
+      },
+      {
+        "seed": 225,
+        "percentage": 92.13916962710057,
+        "ranking": 339
+      },
+      {
+        "seed": 226,
+        "percentage": 85.51134077559183,
+        "ranking": 172
+      },
+      {
+        "seed": 227,
+        "percentage": 90.2579680357549,
+        "ranking": 493
+      },
+      {
+        "seed": 228,
+        "percentage": 92.92791255004448,
+        "ranking": 282
+      },
+      {
+        "seed": 229,
+        "percentage": 97.69096303377717,
+        "ranking": 45
+      },
+      {
+        "seed": 230,
+        "percentage": 80.37485096676764,
+        "ranking": 3
+      },
+      {
+        "seed": 231,
+        "percentage": 85.1392066650559,
+        "ranking": 152
+      },
+      {
+        "seed": 232,
+        "percentage": 90.0468899085582,
+        "ranking": 479
+      },
+      {
+        "seed": 233,
+        "percentage": 84.44475712667747,
+        "ranking": 110
+      },
+      {
+        "seed": 234,
+        "percentage": 81.9255994789301,
+        "ranking": 29
+      },
+      {
+        "seed": 235,
+        "percentage": 86.26575480172427,
+        "ranking": 218
+      },
+      {
+        "seed": 236,
+        "percentage": 99.1416094210145,
+        "ranking": 15
+      },
+      {
+        "seed": 237,
+        "percentage": 91.89152953228671,
+        "ranking": 356
+      },
+      {
+        "seed": 238,
+        "percentage": 85.43942145167063,
+        "ranking": 168
+      },
+      {
+        "seed": 239,
+        "percentage": 91.7903356422334,
+        "ranking": 368
+      },
+      {
+        "seed": 240,
+        "percentage": 88.52835164515878,
+        "ranking": 360
+      },
+      {
+        "seed": 241,
+        "percentage": 88.14487516337199,
+        "ranking": 322
+      },
+      {
+        "seed": 242,
+        "percentage": 87.91046459234472,
+        "ranking": 307
+      },
+      {
+        "seed": 243,
+        "percentage": 87.61056695598359,
+        "ranking": 290
+      },
+      {
+        "seed": 244,
+        "percentage": 85.66321607474362,
+        "ranking": 183
+      },
+      {
+        "seed": 245,
+        "percentage": 95.46528249971358,
+        "ranking": 125
+      },
+      {
+        "seed": 246,
+        "percentage": 87.245716449302,
+        "ranking": 264
+      },
+      {
+        "seed": 247,
+        "percentage": 93.7001742302174,
+        "ranking": 242
+      },
+      {
+        "seed": 248,
+        "percentage": 89.69578680999386,
+        "ranking": 451
+      },
+      {
+        "seed": 249,
+        "percentage": 91.77571427822008,
+        "ranking": 371
+      },
+      {
+        "seed": 250,
+        "percentage": 86.18823537167958,
+        "ranking": 215
+      },
+      {
+        "seed": 251,
+        "percentage": 96.513746907756,
+        "ranking": 81
+      },
+      {
+        "seed": 252,
+        "percentage": 86.17262677245222,
+        "ranking": 212
+      },
+      {
+        "seed": 253,
+        "percentage": 85.24813016623376,
+        "ranking": 159
+      },
+      {
+        "seed": 254,
+        "percentage": 87.20918303735226,
+        "ranking": 259
+      },
+      {
+        "seed": 255,
+        "percentage": 94.02061057604281,
+        "ranking": 214
+      },
+      {
+        "seed": 256,
+        "percentage": 93.26006753316936,
+        "ranking": 261
+      },
+      {
+        "seed": 257,
+        "percentage": 91.23334408577225,
+        "ranking": 419
+      },
+      {
+        "seed": 258,
+        "percentage": 89.33493907262995,
+        "ranking": 416
+      },
+      {
+        "seed": 259,
+        "percentage": 85.4236379714376,
+        "ranking": 166
+      },
+      {
+        "seed": 260,
+        "percentage": 95.70472046622946,
+        "ranking": 107
+      },
+      {
+        "seed": 261,
+        "percentage": 91.10503049658487,
+        "ranking": 434
+      },
+      {
+        "seed": 262,
+        "percentage": 83.09333069569848,
+        "ranking": 62
+      },
+      {
+        "seed": 263,
+        "percentage": 93.9916447803809,
+        "ranking": 217
+      },
+      {
+        "seed": 264,
+        "percentage": 87.36693607428626,
+        "ranking": 278
+      },
+      {
+        "seed": 265,
+        "percentage": 85.7092546618815,
+        "ranking": 184
+      },
+      {
+        "seed": 266,
+        "percentage": 89.67570894283143,
+        "ranking": 450
+      },
+      {
+        "seed": 267,
+        "percentage": 89.01087270920601,
+        "ranking": 395
+      },
+      {
+        "seed": 268,
+        "percentage": 93.02901957994652,
+        "ranking": 278
+      },
+      {
+        "seed": 269,
+        "percentage": 83.01305502669425,
+        "ranking": 59
+      },
+      {
+        "seed": 270,
+        "percentage": 87.05153817226814,
+        "ranking": 253
+      },
+      {
+        "seed": 271,
+        "percentage": 88.25631282617836,
+        "ranking": 331
+      },
+      {
+        "seed": 272,
+        "percentage": 89.37082371671283,
+        "ranking": 419
+      },
+      {
+        "seed": 273,
+        "percentage": 90.87060664950042,
+        "ranking": 453
+      },
+      {
+        "seed": 274,
+        "percentage": 83.72619969301621,
+        "ranking": 80
+      },
+      {
+        "seed": 275,
+        "percentage": 94.10811359586722,
+        "ranking": 205
+      },
+      {
+        "seed": 276,
+        "percentage": 94.46433113789972,
+        "ranking": 182
+      },
+      {
+        "seed": 277,
+        "percentage": 90.40737049128975,
+        "ranking": 500
+      },
+      {
+        "seed": 278,
+        "percentage": 99.1920614073822,
+        "ranking": 12
+      },
+      {
+        "seed": 279,
+        "percentage": 94.0446278279496,
+        "ranking": 212
+      },
+      {
+        "seed": 280,
+        "percentage": 91.2717231808082,
+        "ranking": 415
+      },
+      {
+        "seed": 281,
+        "percentage": 87.17490098201085,
+        "ranking": 258
+      },
+      {
+        "seed": 282,
+        "percentage": 90.64446697862539,
+        "ranking": 472
+      },
+      {
+        "seed": 283,
+        "percentage": 90.96786442315936,
+        "ranking": 446
+      },
+      {
+        "seed": 284,
+        "percentage": 87.79321484595027,
+        "ranking": 302
+      },
+      {
+        "seed": 285,
+        "percentage": 92.44953774033705,
+        "ranking": 316
+      },
+      {
+        "seed": 286,
+        "percentage": 83.85087345510671,
+        "ranking": 85
+      },
+      {
+        "seed": 287,
+        "percentage": 85.59294582180739,
+        "ranking": 179
+      },
+      {
+        "seed": 288,
+        "percentage": 92.14726483676546,
+        "ranking": 336
+      },
+      {
+        "seed": 289,
+        "percentage": 93.53625598146724,
+        "ranking": 246
+      },
+      {
+        "seed": 290,
+        "percentage": 84.60503986838926,
+        "ranking": 116
+      },
+      {
+        "seed": 291,
+        "percentage": 88.75582832130308,
+        "ranking": 375
+      },
+      {
+        "seed": 292,
+        "percentage": 89.37867202737533,
+        "ranking": 420
+      },
+      {
+        "seed": 293,
+        "percentage": 92.91599711025307,
+        "ranking": 285
+      },
+      {
+        "seed": 294,
+        "percentage": 88.51038995044105,
+        "ranking": 358
+      },
+      {
+        "seed": 295,
+        "percentage": 92.57341641966863,
+        "ranking": 305
+      },
+      {
+        "seed": 296,
+        "percentage": 84.17332581679584,
+        "ranking": 99
+      },
+      {
+        "seed": 297,
+        "percentage": 90.41755692531606,
+        "ranking": 498
+      },
+      {
+        "seed": 298,
+        "percentage": 94.07818365783646,
+        "ranking": 206
+      },
+      {
+        "seed": 299,
+        "percentage": 93.24363427230759,
+        "ranking": 263
+      },
+      {
+        "seed": 300,
+        "percentage": 89.89708798420098,
+        "ranking": 468
+      },
+      {
+        "seed": 301,
+        "percentage": 91.2863028413125,
+        "ranking": 413
+      },
+      {
+        "seed": 302,
+        "percentage": 96.80239368609338,
+        "ranking": 69
+      },
+      {
+        "seed": 303,
+        "percentage": 86.92840090135167,
+        "ranking": 249
+      },
+      {
+        "seed": 304,
+        "percentage": 91.48293112788204,
+        "ranking": 389
+      },
+      {
+        "seed": 305,
+        "percentage": 86.5514787656219,
+        "ranking": 232
+      },
+      {
+        "seed": 306,
+        "percentage": 88.39021774577189,
+        "ranking": 341
+      },
+      {
+        "seed": 307,
+        "percentage": 91.40348472307353,
+        "ranking": 401
+      },
+      {
+        "seed": 308,
+        "percentage": 95.86219883498235,
+        "ranking": 98
+      },
+      {
+        "seed": 309,
+        "percentage": 86.64392722030443,
+        "ranking": 238
+      },
+      {
+        "seed": 310,
+        "percentage": 85.78092375396076,
+        "ranking": 190
+      },
+      {
+        "seed": 311,
+        "percentage": 90.91789849665888,
+        "ranking": 448
+      },
+      {
+        "seed": 312,
+        "percentage": 97.20526982040347,
+        "ranking": 59
+      },
+      {
+        "seed": 313,
+        "percentage": 92.61894371863981,
+        "ranking": 302
+      },
+      {
+        "seed": 314,
+        "percentage": 94.38973385861564,
+        "ranking": 187
+      },
+      {
+        "seed": 315,
+        "percentage": 84.42007152200819,
+        "ranking": 108
+      },
+      {
+        "seed": 316,
+        "percentage": 91.10586328035848,
+        "ranking": 433
+      },
+      {
+        "seed": 317,
+        "percentage": 93.7931175034309,
+        "ranking": 231
+      },
+      {
+        "seed": 318,
+        "percentage": 88.95333912117493,
+        "ranking": 390
+      },
+      {
+        "seed": 319,
+        "percentage": 94.47574476749229,
+        "ranking": 177
+      },
+      {
+        "seed": 320,
+        "percentage": 92.41575519900027,
+        "ranking": 322
+      },
+      {
+        "seed": 321,
+        "percentage": 88.42928021479348,
+        "ranking": 346
+      },
+      {
+        "seed": 322,
+        "percentage": 91.4255437226354,
+        "ranking": 396
+      },
+      {
+        "seed": 323,
+        "percentage": 88.65417499692404,
+        "ranking": 367
+      },
+      {
+        "seed": 324,
+        "percentage": 96.58566681734706,
+        "ranking": 79
+      },
+      {
+        "seed": 325,
+        "percentage": 84.63371676746112,
+        "ranking": 118
+      },
+      {
+        "seed": 326,
+        "percentage": 93.93814533862604,
+        "ranking": 219
+      },
+      {
+        "seed": 327,
+        "percentage": 90.0579047967501,
+        "ranking": 480
+      },
+      {
+        "seed": 328,
+        "percentage": 85.20841039299034,
+        "ranking": 155
+      },
+      {
+        "seed": 329,
+        "percentage": 87.29570187581265,
+        "ranking": 270
+      },
+      {
+        "seed": 330,
+        "percentage": 88.80945969008837,
+        "ranking": 382
+      },
+      {
+        "seed": 331,
+        "percentage": 95.08611819116936,
+        "ranking": 138
+      },
+      {
+        "seed": 332,
+        "percentage": 82.10300235906932,
+        "ranking": 34
+      },
+      {
+        "seed": 333,
+        "percentage": 88.49795687675923,
+        "ranking": 355
+      },
+      {
+        "seed": 334,
+        "percentage": 82.63627307004609,
+        "ranking": 48
+      },
+      {
+        "seed": 335,
+        "percentage": 83.12025675925096,
+        "ranking": 64
+      },
+      {
+        "seed": 336,
+        "percentage": 98.33445984748852,
+        "ranking": 30
+      },
+      {
+        "seed": 337,
+        "percentage": 82.44583215989341,
+        "ranking": 45
+      },
+      {
+        "seed": 338,
+        "percentage": 85.77582192852987,
+        "ranking": 189
+      },
+      {
+        "seed": 339,
+        "percentage": 91.9272024827452,
+        "ranking": 351
+      },
+      {
+        "seed": 340,
+        "percentage": 81.55896007815615,
+        "ranking": 20
+      },
+      {
+        "seed": 341,
+        "percentage": 93.53328250389448,
+        "ranking": 247
+      },
+      {
+        "seed": 342,
+        "percentage": 94.72880033885393,
+        "ranking": 160
+      },
+      {
+        "seed": 343,
+        "percentage": 90.25165246078242,
+        "ranking": 492
+      },
+      {
+        "seed": 344,
+        "percentage": 88.76209011504591,
+        "ranking": 376
+      },
+      {
+        "seed": 345,
+        "percentage": 99.06738384994199,
+        "ranking": 17
+      },
+      {
+        "seed": 346,
+        "percentage": 94.46617550101556,
+        "ranking": 180
+      },
+      {
+        "seed": 347,
+        "percentage": 94.66181764018408,
+        "ranking": 163
+      },
+      {
+        "seed": 348,
+        "percentage": 93.71612968388739,
+        "ranking": 239
+      },
+      {
+        "seed": 349,
+        "percentage": 91.3876977364482,
+        "ranking": 404
+      },
+      {
+        "seed": 350,
+        "percentage": 94.41144728516792,
+        "ranking": 185
+      },
+      {
+        "seed": 351,
+        "percentage": 82.50748115038415,
+        "ranking": 46
+      },
+      {
+        "seed": 352,
+        "percentage": 93.56421537075238,
+        "ranking": 244
+      },
+      {
+        "seed": 353,
+        "percentage": 91.77172842075248,
+        "ranking": 373
+      },
+      {
+        "seed": 354,
+        "percentage": 84.64633103412805,
+        "ranking": 120
+      },
+      {
+        "seed": 355,
+        "percentage": 91.6664407483994,
+        "ranking": 378
+      },
+      {
+        "seed": 356,
+        "percentage": 88.29495476397166,
+        "ranking": 333
+      },
+      {
+        "seed": 357,
+        "percentage": 95.45212915733788,
+        "ranking": 126
+      },
+      {
+        "seed": 358,
+        "percentage": 91.971376267022,
+        "ranking": 348
+      },
+      {
+        "seed": 359,
+        "percentage": 82.1013591296309,
+        "ranking": 32
+      },
+      {
+        "seed": 360,
+        "percentage": 93.35491373644383,
+        "ranking": 257
+      },
+      {
+        "seed": 361,
+        "percentage": 94.20882805202939,
+        "ranking": 199
+      },
+      {
+        "seed": 362,
+        "percentage": 94.1184975490477,
+        "ranking": 204
+      },
+      {
+        "seed": 363,
+        "percentage": 91.92692972943283,
+        "ranking": 352
+      },
+      {
+        "seed": 364,
+        "percentage": 84.54972236261655,
+        "ranking": 114
+      },
+      {
+        "seed": 365,
+        "percentage": 94.88770621981305,
+        "ranking": 153
+      },
+      {
+        "seed": 366,
+        "percentage": 93.76755402468194,
+        "ranking": 235
+      },
+      {
+        "seed": 367,
+        "percentage": 92.28662117104383,
+        "ranking": 331
+      },
+      {
+        "seed": 368,
+        "percentage": 91.02387729034365,
+        "ranking": 440
+      },
+      {
+        "seed": 369,
+        "percentage": 90.65680498126676,
+        "ranking": 470
+      },
+      {
+        "seed": 370,
+        "percentage": 84.2813991476942,
+        "ranking": 103
+      },
+      {
+        "seed": 371,
+        "percentage": 89.21930447439874,
+        "ranking": 406
+      },
+      {
+        "seed": 372,
+        "percentage": 83.38071980461761,
+        "ranking": 70
+      },
+      {
+        "seed": 373,
+        "percentage": 86.26833937945631,
+        "ranking": 219
+      },
+      {
+        "seed": 374,
+        "percentage": 93.44971765491444,
+        "ranking": 254
+      },
+      {
+        "seed": 375,
+        "percentage": 91.15357394105173,
+        "ranking": 428
+      },
+      {
+        "seed": 376,
+        "percentage": 92.84289930190953,
+        "ranking": 288
+      },
+      {
+        "seed": 377,
+        "percentage": 90.49545483786595,
+        "ranking": 491
+      },
+      {
+        "seed": 378,
+        "percentage": 81.82374889165908,
+        "ranking": 27
+      },
+      {
+        "seed": 379,
+        "percentage": 94.06050598357419,
+        "ranking": 209
+      },
+      {
+        "seed": 380,
+        "percentage": 92.68410961124542,
+        "ranking": 300
+      },
+      {
+        "seed": 381,
+        "percentage": 91.17409249014513,
+        "ranking": 425
+      },
+      {
+        "seed": 382,
+        "percentage": 97.85823934442399,
+        "ranking": 41
+      },
+      {
+        "seed": 383,
+        "percentage": 92.67807856863264,
+        "ranking": 301
+      },
+      {
+        "seed": 384,
+        "percentage": 88.42432601638312,
+        "ranking": 345
+      },
+      {
+        "seed": 385,
+        "percentage": 89.65883454785704,
+        "ranking": 448
+      },
+      {
+        "seed": 386,
+        "percentage": 84.9758326056685,
+        "ranking": 140
+      },
+      {
+        "seed": 387,
+        "percentage": 83.4441669058792,
+        "ranking": 73
+      },
+      {
+        "seed": 388,
+        "percentage": 87.69118453556918,
+        "ranking": 297
+      },
+      {
+        "seed": 389,
+        "percentage": 90.17146598162563,
+        "ranking": 486
+      },
+      {
+        "seed": 390,
+        "percentage": 87.70044489919954,
+        "ranking": 298
+      },
+      {
+        "seed": 391,
+        "percentage": 94.59587315673109,
+        "ranking": 170
+      },
+      {
+        "seed": 392,
+        "percentage": 94.82223822706963,
+        "ranking": 156
+      },
+      {
+        "seed": 393,
+        "percentage": 88.66736595536985,
+        "ranking": 369
+      },
+      {
+        "seed": 394,
+        "percentage": 86.23427555028623,
+        "ranking": 217
+      },
+      {
+        "seed": 395,
+        "percentage": 96.11058740885473,
+        "ranking": 93
+      },
+      {
+        "seed": 396,
+        "percentage": 98.55121791285094,
+        "ranking": 26
+      },
+      {
+        "seed": 397,
+        "percentage": 85.81039527472846,
+        "ranking": 194
+      },
+      {
+        "seed": 398,
+        "percentage": 87.33536466495327,
+        "ranking": 274
+      },
+      {
+        "seed": 399,
+        "percentage": 94.4918008159842,
+        "ranking": 176
+      },
+      {
+        "seed": 400,
+        "percentage": 84.68048997020041,
+        "ranking": 122
+      },
+      {
+        "seed": 401,
+        "percentage": 91.78718667330112,
+        "ranking": 369
+      },
+      {
+        "seed": 402,
+        "percentage": 81.52141853757091,
+        "ranking": 17
+      },
+      {
+        "seed": 403,
+        "percentage": 98.48459672399224,
+        "ranking": 27
+      },
+      {
+        "seed": 404,
+        "percentage": 88.00048446537254,
+        "ranking": 311
+      },
+      {
+        "seed": 405,
+        "percentage": 85.84727155892513,
+        "ranking": 197
+      },
+      {
+        "seed": 406,
+        "percentage": 87.37700149722656,
+        "ranking": 280
+      },
+      {
+        "seed": 407,
+        "percentage": 86.76673899402566,
+        "ranking": 244
+      },
+      {
+        "seed": 408,
+        "percentage": 87.5554002704569,
+        "ranking": 287
+      },
+      {
+        "seed": 409,
+        "percentage": 89.76488209752269,
+        "ranking": 456
+      },
+      {
+        "seed": 410,
+        "percentage": 93.1521487817203,
+        "ranking": 269
+      },
+      {
+        "seed": 411,
+        "percentage": 91.14226488816095,
+        "ranking": 429
+      },
+      {
+        "seed": 412,
+        "percentage": 82.9384039926358,
+        "ranking": 56
+      },
+      {
+        "seed": 413,
+        "percentage": 87.22110203033627,
+        "ranking": 261
+      },
+      {
+        "seed": 414,
+        "percentage": 93.03867183041478,
+        "ranking": 277
+      },
+      {
+        "seed": 415,
+        "percentage": 84.70731156191545,
+        "ranking": 124
+      },
+      {
+        "seed": 416,
+        "percentage": 94.6519983264037,
+        "ranking": 166
+      },
+      {
+        "seed": 417,
+        "percentage": 89.98719772638844,
+        "ranking": 474
+      },
+      {
+        "seed": 418,
+        "percentage": 88.35313359823887,
+        "ranking": 337
+      },
+      {
+        "seed": 419,
+        "percentage": 92.81118242747002,
+        "ranking": 290
+      },
+      {
+        "seed": 420,
+        "percentage": 88.62250619064986,
+        "ranking": 364
+      },
+      {
+        "seed": 421,
+        "percentage": 93.49211210412484,
+        "ranking": 251
+      },
+      {
+        "seed": 422,
+        "percentage": 96.9818446905895,
+        "ranking": 61
+      },
+      {
+        "seed": 423,
+        "percentage": 85.4866044567845,
+        "ranking": 171
+      },
+      {
+        "seed": 424,
+        "percentage": 91.86849066131361,
+        "ranking": 360
+      },
+      {
+        "seed": 425,
+        "percentage": 92.24519122177352,
+        "ranking": 333
+      },
+      {
+        "seed": 426,
+        "percentage": 90.49536683137028,
+        "ranking": 492
+      },
+      {
+        "seed": 427,
+        "percentage": 88.66931358092378,
+        "ranking": 370
+      },
+      {
+        "seed": 428,
+        "percentage": 91.83257058289743,
+        "ranking": 362
+      },
+      {
+        "seed": 429,
+        "percentage": 98.13404590408516,
+        "ranking": 34
+      },
+      {
+        "seed": 430,
+        "percentage": 90.506761877868,
+        "ranking": 489
+      },
+      {
+        "seed": 431,
+        "percentage": 89.76653424725149,
+        "ranking": 457
+      },
+      {
+        "seed": 432,
+        "percentage": 92.97481345086535,
+        "ranking": 281
+      },
+      {
+        "seed": 433,
+        "percentage": 94.46483161876097,
+        "ranking": 181
+      },
+      {
+        "seed": 434,
+        "percentage": 90.3359514721069,
+        "ranking": 499
+      },
+      {
+        "seed": 435,
+        "percentage": 97.88147673797738,
+        "ranking": 40
+      },
+      {
+        "seed": 436,
+        "percentage": 91.4716347382597,
+        "ranking": 391
+      },
+      {
+        "seed": 437,
+        "percentage": 90.20932920610478,
+        "ranking": 490
+      },
+      {
+        "seed": 438,
+        "percentage": 82.29525142787205,
+        "ranking": 41
+      },
+      {
+        "seed": 439,
+        "percentage": 88.36462355028235,
+        "ranking": 338
+      },
+      {
+        "seed": 440,
+        "percentage": 92.7820714126833,
+        "ranking": 293
+      },
+      {
+        "seed": 441,
+        "percentage": 91.00945937510377,
+        "ranking": 443
+      },
+      {
+        "seed": 442,
+        "percentage": 89.62474236711574,
+        "ranking": 442
+      },
+      {
+        "seed": 443,
+        "percentage": 84.93563888603084,
+        "ranking": 135
+      },
+      {
+        "seed": 444,
+        "percentage": 80.87751972436836,
+        "ranking": 8
+      },
+      {
+        "seed": 445,
+        "percentage": 88.12053527715699,
+        "ranking": 319
+      },
+      {
+        "seed": 446,
+        "percentage": 97.23203777351564,
+        "ranking": 56
+      },
+      {
+        "seed": 447,
+        "percentage": 98.5893037876364,
+        "ranking": 25
+      },
+      {
+        "seed": 448,
+        "percentage": 89.27793777695015,
+        "ranking": 412
+      },
+      {
+        "seed": 449,
+        "percentage": 99.91420515767827,
+        "ranking": 3
+      },
+      {
+        "seed": 450,
+        "percentage": 85.97708857578533,
+        "ranking": 200
+      },
+      {
+        "seed": 451,
+        "percentage": 91.30728490725751,
+        "ranking": 411
+      },
+      {
+        "seed": 452,
+        "percentage": 83.76437902488972,
+        "ranking": 82
+      },
+      {
+        "seed": 453,
+        "percentage": 91.29658095519879,
+        "ranking": 412
+      },
+      {
+        "seed": 454,
+        "percentage": 82.93950833488725,
+        "ranking": 57
+      },
+      {
+        "seed": 455,
+        "percentage": 94.46871172764801,
+        "ranking": 178
+      },
+      {
+        "seed": 456,
+        "percentage": 89.0936940809261,
+        "ranking": 400
+      },
+      {
+        "seed": 457,
+        "percentage": 81.54910506291054,
+        "ranking": 19
+      },
+      {
+        "seed": 458,
+        "percentage": 91.44200398794081,
+        "ranking": 394
+      },
+      {
+        "seed": 459,
+        "percentage": 86.68035478852175,
+        "ranking": 240
+      },
+      {
+        "seed": 460,
+        "percentage": 94.91366057277446,
+        "ranking": 152
+      },
+      {
+        "seed": 461,
+        "percentage": 84.51703648057122,
+        "ranking": 111
+      },
+      {
+        "seed": 462,
+        "percentage": 96.73040873312742,
+        "ranking": 74
+      },
+      {
+        "seed": 463,
+        "percentage": 91.61719545284927,
+        "ranking": 381
+      },
+      {
+        "seed": 464,
+        "percentage": 90.53208488222813,
+        "ranking": 485
+      },
+      {
+        "seed": 465,
+        "percentage": 95.53692563164223,
+        "ranking": 120
+      },
+      {
+        "seed": 466,
+        "percentage": 93.133802231629,
+        "ranking": 271
+      },
+      {
+        "seed": 467,
+        "percentage": 94.60340827286228,
+        "ranking": 168
+      },
+      {
+        "seed": 468,
+        "percentage": 99.69478055318592,
+        "ranking": 5
+      },
+      {
+        "seed": 469,
+        "percentage": 85.33443736569512,
+        "ranking": 162
+      },
+      {
+        "seed": 470,
+        "percentage": 93.70818755348402,
+        "ranking": 240
+      },
+      {
+        "seed": 471,
+        "percentage": 82.83803240689669,
+        "ranking": 52
+      },
+      {
+        "seed": 472,
+        "percentage": 91.80301235101018,
+        "ranking": 365
+      },
+      {
+        "seed": 473,
+        "percentage": 84.28234880952526,
+        "ranking": 104
+      },
+      {
+        "seed": 474,
+        "percentage": 94.18497218475164,
+        "ranking": 202
+      },
+      {
+        "seed": 475,
+        "percentage": 95.05542846042508,
+        "ranking": 141
+      },
+      {
+        "seed": 476,
+        "percentage": 87.42029279503157,
+        "ranking": 282
+      },
+      {
+        "seed": 477,
+        "percentage": 88.99506489125899,
+        "ranking": 391
+      },
+      {
+        "seed": 478,
+        "percentage": 94.01107849289738,
+        "ranking": 215
+      },
+      {
+        "seed": 479,
+        "percentage": 86.75289731113725,
+        "ranking": 243
+      },
+      {
+        "seed": 480,
+        "percentage": 89.82079521602276,
+        "ranking": 461
+      },
+      {
+        "seed": 481,
+        "percentage": 97.31912114975148,
+        "ranking": 54
+      },
+      {
+        "seed": 482,
+        "percentage": 95.93564929447629,
+        "ranking": 96
+      },
+      {
+        "seed": 483,
+        "percentage": 86.45696231372695,
+        "ranking": 230
+      },
+      {
+        "seed": 484,
+        "percentage": 91.8195579700358,
+        "ranking": 363
+      },
+      {
+        "seed": 485,
+        "percentage": 82.01094370121712,
+        "ranking": 31
+      },
+      {
+        "seed": 486,
+        "percentage": 93.30043443075999,
+        "ranking": 260
+      },
+      {
+        "seed": 487,
+        "percentage": 96.31449729527397,
+        "ranking": 85
+      },
+      {
+        "seed": 488,
+        "percentage": 92.43212655953998,
+        "ranking": 318
+      },
+      {
+        "seed": 489,
+        "percentage": 88.9951479679216,
+        "ranking": 392
+      },
+      {
+        "seed": 490,
+        "percentage": 84.52541826117574,
+        "ranking": 112
+      },
+      {
+        "seed": 491,
+        "percentage": 88.93610724066086,
+        "ranking": 388
+      },
+      {
+        "seed": 492,
+        "percentage": 85.55998746853707,
+        "ranking": 176
+      },
+      {
+        "seed": 493,
+        "percentage": 89.50658958611257,
+        "ranking": 433
+      },
+      {
+        "seed": 494,
+        "percentage": 91.54871433227848,
+        "ranking": 386
+      },
+      {
+        "seed": 495,
+        "percentage": 87.07791421131044,
+        "ranking": 254
+      },
+      {
+        "seed": 496,
+        "percentage": 87.26032229172688,
+        "ranking": 266
+      },
+      {
+        "seed": 497,
+        "percentage": 88.23479162321576,
+        "ranking": 329
+      },
+      {
+        "seed": 498,
+        "percentage": 88.40658254026579,
+        "ranking": 344
+      },
+      {
+        "seed": 499,
+        "percentage": 83.30282094844578,
+        "ranking": 68
+      },
+      {
+        "seed": 500,
+        "percentage": 92.5386743742917,
+        "ranking": 309
+      },
+      {
+        "seed": 501,
+        "percentage": 91.1275772520562,
+        "ranking": 431
+      },
+      {
+        "seed": 502,
+        "percentage": 87.28387182681871,
+        "ranking": 268
+      },
+      {
+        "seed": 503,
+        "percentage": 89.92678194354079,
+        "ranking": 469
+      },
+      {
+        "seed": 504,
+        "percentage": 87.81399344930054,
+        "ranking": 303
+      },
+      {
+        "seed": 505,
+        "percentage": 88.87216951838589,
+        "ranking": 384
+      },
+      {
+        "seed": 506,
+        "percentage": 86.32282801542512,
+        "ranking": 224
+      },
+      {
+        "seed": 507,
+        "percentage": 83.45869896847924,
+        "ranking": 74
+      },
+      {
+        "seed": 508,
+        "percentage": 98.05695464717431,
+        "ranking": 35
+      },
+      {
+        "seed": 509,
+        "percentage": 92.81321928263176,
+        "ranking": 289
+      },
+      {
+        "seed": 510,
+        "percentage": 90.40961474011814,
+        "ranking": 499
+      },
+      {
+        "seed": 511,
+        "percentage": 98.63338742502201,
+        "ranking": 24
+      },
+      {
+        "seed": 512,
+        "percentage": 92.14386576491479,
+        "ranking": 338
+      },
+      {
+        "seed": 513,
+        "percentage": 91.40661198677745,
+        "ranking": 399
+      },
+      {
+        "seed": 514,
+        "percentage": 94.6575079473859,
+        "ranking": 164
+      },
+      {
+        "seed": 515,
+        "percentage": 82.77652674875044,
+        "ranking": 50
+      },
+      {
+        "seed": 516,
+        "percentage": 81.8453935593179,
+        "ranking": 28
+      },
+      {
+        "seed": 517,
+        "percentage": 96.15540919576152,
+        "ranking": 90
+      },
+      {
+        "seed": 518,
+        "percentage": 96.91431835095776,
+        "ranking": 65
+      },
+      {
+        "seed": 519,
+        "percentage": 91.41106926493188,
+        "ranking": 398
+      },
+      {
+        "seed": 520,
+        "percentage": 93.8814916573025,
+        "ranking": 225
+      },
+      {
+        "seed": 521,
+        "percentage": 94.57337321364179,
+        "ranking": 173
+      },
+      {
+        "seed": 522,
+        "percentage": 80.24619677769509,
+        "ranking": 2
+      },
+      {
+        "seed": 523,
+        "percentage": 90.57880634780261,
+        "ranking": 480
+      },
+      {
+        "seed": 524,
+        "percentage": 88.39918771447866,
+        "ranking": 342
+      },
+      {
+        "seed": 525,
+        "percentage": 90.862441808712,
+        "ranking": 454
+      },
+      {
+        "seed": 526,
+        "percentage": 85.58883626718642,
+        "ranking": 178
+      },
+      {
+        "seed": 527,
+        "percentage": 95.12621412419865,
+        "ranking": 133
+      },
+      {
+        "seed": 528,
+        "percentage": 91.47856769853144,
+        "ranking": 390
+      },
+      {
+        "seed": 529,
+        "percentage": 85.60515143744298,
+        "ranking": 181
+      },
+      {
+        "seed": 530,
+        "percentage": 87.24185250682477,
+        "ranking": 262
+      },
+      {
+        "seed": 531,
+        "percentage": 90.57848026323828,
+        "ranking": 481
+      },
+      {
+        "seed": 532,
+        "percentage": 86.04100362623369,
+        "ranking": 205
+      },
+      {
+        "seed": 533,
+        "percentage": 94.06158871718999,
+        "ranking": 208
+      },
+      {
+        "seed": 534,
+        "percentage": 93.820462455406,
+        "ranking": 230
+      },
+      {
+        "seed": 535,
+        "percentage": 90.845045939231,
+        "ranking": 456
+      },
+      {
+        "seed": 536,
+        "percentage": 95.03569245588706,
+        "ranking": 144
+      },
+      {
+        "seed": 537,
+        "percentage": 84.18437340028906,
+        "ranking": 100
+      },
+      {
+        "seed": 538,
+        "percentage": 97.4293284357531,
+        "ranking": 52
+      },
+      {
+        "seed": 539,
+        "percentage": 87.58713279284049,
+        "ranking": 289
+      },
+      {
+        "seed": 540,
+        "percentage": 88.5226378250948,
+        "ranking": 359
+      },
+      {
+        "seed": 541,
+        "percentage": 81.28612599583644,
+        "ranking": 16
+      },
+      {
+        "seed": 542,
+        "percentage": 85.55608438852059,
+        "ranking": 175
+      },
+      {
+        "seed": 543,
+        "percentage": 87.26647381681444,
+        "ranking": 267
+      },
+      {
+        "seed": 544,
+        "percentage": 85.97713169891288,
+        "ranking": 201
+      },
+      {
+        "seed": 545,
+        "percentage": 88.7350621763263,
+        "ranking": 374
+      },
+      {
+        "seed": 546,
+        "percentage": 81.0173711912181,
+        "ranking": 11
+      },
+      {
+        "seed": 547,
+        "percentage": 91.52333478222532,
+        "ranking": 387
+      },
+      {
+        "seed": 548,
+        "percentage": 87.35005239261871,
+        "ranking": 275
+      },
+      {
+        "seed": 549,
+        "percentage": 88.94274075898633,
+        "ranking": 389
+      },
+      {
+        "seed": 550,
+        "percentage": 99.55336280304405,
+        "ranking": 7
+      },
+      {
+        "seed": 551,
+        "percentage": 89.21557958703585,
+        "ranking": 405
+      },
+      {
+        "seed": 552,
+        "percentage": 89.26201564600957,
+        "ranking": 410
+      },
+      {
+        "seed": 553,
+        "percentage": 81.54816475755742,
+        "ranking": 18
+      },
+      {
+        "seed": 554,
+        "percentage": 90.2716320189189,
+        "ranking": 494
+      },
+      {
+        "seed": 555,
+        "percentage": 92.04516378849512,
+        "ranking": 345
+      },
+      {
+        "seed": 556,
+        "percentage": 92.7439583667357,
+        "ranking": 296
+      },
+      {
+        "seed": 557,
+        "percentage": 88.28063791675164,
+        "ranking": 332
+      },
+      {
+        "seed": 558,
+        "percentage": 91.40018082973994,
+        "ranking": 403
+      },
+      {
+        "seed": 559,
+        "percentage": 88.17861296361289,
+        "ranking": 326
+      },
+      {
+        "seed": 560,
+        "percentage": 89.34108043806017,
+        "ranking": 417
+      },
+      {
+        "seed": 561,
+        "percentage": 84.96724217882091,
+        "ranking": 139
+      },
+      {
+        "seed": 562,
+        "percentage": 85.84024512900369,
+        "ranking": 196
+      },
+      {
+        "seed": 563,
+        "percentage": 94.1919821595841,
+        "ranking": 201
+      },
+      {
+        "seed": 564,
+        "percentage": 98.40574356570953,
+        "ranking": 29
+      },
+      {
+        "seed": 565,
+        "percentage": 95.35055477285752,
+        "ranking": 127
+      },
+      {
+        "seed": 566,
+        "percentage": 92.75423690340803,
+        "ranking": 295
+      },
+      {
+        "seed": 567,
+        "percentage": 88.40282917122485,
+        "ranking": 343
+      },
+      {
+        "seed": 568,
+        "percentage": 94.59318102083765,
+        "ranking": 171
+      },
+      {
+        "seed": 569,
+        "percentage": 87.76625341805176,
+        "ranking": 301
+      },
+      {
+        "seed": 570,
+        "percentage": 88.14563549913116,
+        "ranking": 324
+      },
+      {
+        "seed": 571,
+        "percentage": 94.82248621018547,
+        "ranking": 155
+      },
+      {
+        "seed": 572,
+        "percentage": 95.50414224656343,
+        "ranking": 122
+      },
+      {
+        "seed": 573,
+        "percentage": 95.27992408273458,
+        "ranking": 131
+      },
+      {
+        "seed": 574,
+        "percentage": 87.43025970155655,
+        "ranking": 283
+      },
+      {
+        "seed": 575,
+        "percentage": 99.96831346812058,
+        "ranking": 2
+      },
+      {
+        "seed": 576,
+        "percentage": 100,
+        "ranking": 1
+      },
+      {
+        "seed": 577,
+        "percentage": 98.79677069275427,
+        "ranking": 22
+      },
+      {
+        "seed": 578,
+        "percentage": 84.63619649063361,
+        "ranking": 119
+      },
+      {
+        "seed": 579,
+        "percentage": 89.93670781976178,
+        "ranking": 470
+      },
+      {
+        "seed": 580,
+        "percentage": 85.53903475884186,
+        "ranking": 173
+      },
+      {
+        "seed": 581,
+        "percentage": 93.83479348592132,
+        "ranking": 229
+      },
+      {
+        "seed": 582,
+        "percentage": 90.76650099906975,
+        "ranking": 464
+      },
+      {
+        "seed": 583,
+        "percentage": 91.91843195408441,
+        "ranking": 353
+      },
+      {
+        "seed": 584,
+        "percentage": 96.92408619610168,
+        "ranking": 63
+      },
+      {
+        "seed": 585,
+        "percentage": 91.14061639729,
+        "ranking": 430
+      },
+      {
+        "seed": 586,
+        "percentage": 92.1098110939468,
+        "ranking": 341
+      },
+      {
+        "seed": 587,
+        "percentage": 92.29268772415145,
+        "ranking": 330
+      },
+      {
+        "seed": 588,
+        "percentage": 91.55999272263367,
+        "ranking": 384
+      },
+      {
+        "seed": 589,
+        "percentage": 86.44531156695294,
+        "ranking": 229
+      },
+      {
+        "seed": 590,
+        "percentage": 86.30282941466758,
+        "ranking": 221
+      },
+      {
+        "seed": 591,
+        "percentage": 87.35494808766221,
+        "ranking": 276
+      },
+      {
+        "seed": 592,
+        "percentage": 90.56070001879885,
+        "ranking": 483
+      },
+      {
+        "seed": 593,
+        "percentage": 88.5062070705653,
+        "ranking": 357
+      },
+      {
+        "seed": 594,
+        "percentage": 83.8025393658018,
+        "ranking": 84
+      },
+      {
+        "seed": 595,
+        "percentage": 85.03975000540413,
+        "ranking": 144
+      },
+      {
+        "seed": 596,
+        "percentage": 89.07022651104114,
+        "ranking": 398
+      },
+      {
+        "seed": 597,
+        "percentage": 96.78585521149522,
+        "ranking": 72
+      },
+      {
+        "seed": 598,
+        "percentage": 82.94174912934405,
+        "ranking": 58
+      },
+      {
+        "seed": 599,
+        "percentage": 97.1888967756112,
+        "ranking": 60
+      },
+      {
+        "seed": 600,
+        "percentage": 88.80597891088193,
+        "ranking": 381
+      },
+      {
+        "seed": 601,
+        "percentage": 98.21184441503755,
+        "ranking": 31
+      },
+      {
+        "seed": 602,
+        "percentage": 88.32177867728758,
+        "ranking": 335
+      },
+      {
+        "seed": 603,
+        "percentage": 93.19543031346804,
+        "ranking": 265
+      },
+      {
+        "seed": 604,
+        "percentage": 93.59273790498753,
+        "ranking": 243
+      },
+      {
+        "seed": 605,
+        "percentage": 82.37805660057882,
+        "ranking": 42
+      },
+      {
+        "seed": 606,
+        "percentage": 85.08813181016743,
+        "ranking": 148
+      },
+      {
+        "seed": 607,
+        "percentage": 85.39086083603009,
+        "ranking": 164
+      },
+      {
+        "seed": 608,
+        "percentage": 95.67849570968875,
+        "ranking": 111
+      },
+      {
+        "seed": 609,
+        "percentage": 88.7797579264583,
+        "ranking": 379
+      },
+      {
+        "seed": 610,
+        "percentage": 91.88777636750065,
+        "ranking": 358
+      },
+      {
+        "seed": 611,
+        "percentage": 86.14885460133604,
+        "ranking": 211
+      },
+      {
+        "seed": 612,
+        "percentage": 92.47403094375271,
+        "ranking": 311
+      },
+      {
+        "seed": 613,
+        "percentage": 96.13825081544414,
+        "ranking": 91
+      },
+      {
+        "seed": 614,
+        "percentage": 85.60282321076704,
+        "ranking": 180
+      },
+      {
+        "seed": 615,
+        "percentage": 93.87054428345523,
+        "ranking": 226
+      },
+      {
+        "seed": 616,
+        "percentage": 88.19806977343691,
+        "ranking": 327
+      },
+      {
+        "seed": 617,
+        "percentage": 94.49661333521988,
+        "ranking": 174
+      },
+      {
+        "seed": 618,
+        "percentage": 89.49691502531513,
+        "ranking": 432
+      },
+      {
+        "seed": 619,
+        "percentage": 88.89824964763632,
+        "ranking": 386
+      },
+      {
+        "seed": 620,
+        "percentage": 94.66380359326797,
+        "ranking": 162
+      },
+      {
+        "seed": 621,
+        "percentage": 85.78984280149447,
+        "ranking": 191
+      },
+      {
+        "seed": 622,
+        "percentage": 88.2085632715091,
+        "ranking": 328
+      },
+      {
+        "seed": 623,
+        "percentage": 86.72471113081342,
+        "ranking": 242
+      },
+      {
+        "seed": 624,
+        "percentage": 91.00449578986215,
+        "ranking": 444
+      },
+      {
+        "seed": 625,
+        "percentage": 89.23467346785921,
+        "ranking": 408
+      },
+      {
+        "seed": 626,
+        "percentage": 89.54103967153421,
+        "ranking": 439
+      },
+      {
+        "seed": 627,
+        "percentage": 86.14561460122984,
+        "ranking": 210
+      },
+      {
+        "seed": 628,
+        "percentage": 87.38797063491249,
+        "ranking": 281
+      },
+      {
+        "seed": 629,
+        "percentage": 93.1690374565448,
+        "ranking": 268
+      },
+      {
+        "seed": 630,
+        "percentage": 89.38778038381265,
+        "ranking": 421
+      },
+      {
+        "seed": 631,
+        "percentage": 81.17249211637916,
+        "ranking": 14
+      },
+      {
+        "seed": 632,
+        "percentage": 83.86007621186869,
+        "ranking": 87
+      },
+      {
+        "seed": 633,
+        "percentage": 92.84536272530748,
+        "ranking": 287
+      },
+      {
+        "seed": 634,
+        "percentage": 91.40650403250879,
+        "ranking": 400
+      },
+      {
+        "seed": 635,
+        "percentage": 90.0749778343207,
+        "ranking": 481
+      },
+      {
+        "seed": 636,
+        "percentage": 96.87152605538495,
+        "ranking": 67
+      },
+      {
+        "seed": 637,
+        "percentage": 85.90126792690046,
+        "ranking": 198
+      },
+      {
+        "seed": 638,
+        "percentage": 89.85071735062274,
+        "ranking": 463
+      },
+      {
+        "seed": 639,
+        "percentage": 97.36332722062531,
+        "ranking": 53
+      },
+      {
+        "seed": 640,
+        "percentage": 91.77792308758782,
+        "ranking": 370
+      },
+      {
+        "seed": 641,
+        "percentage": 95.12467327585135,
+        "ranking": 134
+      },
+      {
+        "seed": 642,
+        "percentage": 84.09536887629345,
+        "ranking": 97
+      },
+      {
+        "seed": 643,
+        "percentage": 91.90977481421913,
+        "ranking": 355
+      },
+      {
+        "seed": 644,
+        "percentage": 95.02714793373862,
+        "ranking": 145
+      },
+      {
+        "seed": 645,
+        "percentage": 90.23468891140851,
+        "ranking": 491
+      },
+      {
+        "seed": 646,
+        "percentage": 83.87376081683315,
+        "ranking": 88
+      },
+      {
+        "seed": 647,
+        "percentage": 83.05444538942666,
+        "ranking": 60
+      },
+      {
+        "seed": 648,
+        "percentage": 99.39400099924053,
+        "ranking": 11
+      },
+      {
+        "seed": 649,
+        "percentage": 85.43495879629492,
+        "ranking": 167
+      },
+      {
+        "seed": 650,
+        "percentage": 84.86580156471652,
+        "ranking": 131
+      },
+      {
+        "seed": 651,
+        "percentage": 96.16290649480348,
+        "ranking": 89
+      },
+      {
+        "seed": 652,
+        "percentage": 89.50880866393899,
+        "ranking": 434
+      },
+      {
+        "seed": 653,
+        "percentage": 84.92736781813244,
+        "ranking": 134
+      },
+      {
+        "seed": 654,
+        "percentage": 95.66260776463774,
+        "ranking": 113
+      },
+      {
+        "seed": 655,
+        "percentage": 83.25093564170106,
+        "ranking": 66
+      },
+      {
+        "seed": 656,
+        "percentage": 85.98157085168934,
+        "ranking": 202
+      },
+      {
+        "seed": 657,
+        "percentage": 91.18909631180286,
+        "ranking": 423
+      },
+      {
+        "seed": 658,
+        "percentage": 91.61155922786924,
+        "ranking": 382
+      },
+      {
+        "seed": 659,
+        "percentage": 84.86952765752012,
+        "ranking": 132
+      },
+      {
+        "seed": 660,
+        "percentage": 85.45635512382174,
+        "ranking": 169
+      },
+      {
+        "seed": 661,
+        "percentage": 91.1633320135729,
+        "ranking": 427
+      },
+      {
+        "seed": 662,
+        "percentage": 87.98464796118064,
+        "ranking": 310
+      },
+      {
+        "seed": 663,
+        "percentage": 82.21094582950148,
+        "ranking": 36
+      },
+      {
+        "seed": 664,
+        "percentage": 91.68265857871833,
+        "ranking": 376
+      },
+      {
+        "seed": 665,
+        "percentage": 95.46774210847254,
+        "ranking": 124
+      },
+      {
+        "seed": 666,
+        "percentage": 97.75225273671735,
+        "ranking": 44
+      },
+      {
+        "seed": 667,
+        "percentage": 89.51503473005666,
+        "ranking": 435
+      },
+      {
+        "seed": 668,
+        "percentage": 91.79465390133544,
+        "ranking": 366
+      },
+      {
+        "seed": 669,
+        "percentage": 90.44905092765752,
+        "ranking": 495
+      },
+      {
+        "seed": 670,
+        "percentage": 91.06639224831115,
+        "ranking": 437
+      },
+      {
+        "seed": 671,
+        "percentage": 88.01033065097113,
+        "ranking": 313
+      },
+      {
+        "seed": 672,
+        "percentage": 83.31029907097097,
+        "ranking": 69
+      },
+      {
+        "seed": 673,
+        "percentage": 82.10200248599108,
+        "ranking": 33
+      },
+      {
+        "seed": 674,
+        "percentage": 90.52496604419677,
+        "ranking": 486
+      },
+      {
+        "seed": 675,
+        "percentage": 92.36752312900698,
+        "ranking": 325
+      },
+      {
+        "seed": 676,
+        "percentage": 89.6574196942982,
+        "ranking": 447
+      },
+      {
+        "seed": 677,
+        "percentage": 96.49090267942358,
+        "ranking": 83
+      },
+      {
+        "seed": 678,
+        "percentage": 85.08598462705656,
+        "ranking": 147
+      },
+      {
+        "seed": 679,
+        "percentage": 90.8136592955844,
+        "ranking": 462
+      },
+      {
+        "seed": 680,
+        "percentage": 88.44736346583602,
+        "ranking": 348
+      },
+      {
+        "seed": 681,
+        "percentage": 89.30122695639903,
+        "ranking": 414
+      },
+      {
+        "seed": 682,
+        "percentage": 86.03987790110104,
+        "ranking": 204
+      },
+      {
+        "seed": 683,
+        "percentage": 85.23188178157972,
+        "ranking": 158
+      },
+      {
+        "seed": 684,
+        "percentage": 86.9736082559413,
+        "ranking": 250
+      },
+      {
+        "seed": 685,
+        "percentage": 81.05852931868898,
+        "ranking": 12
+      },
+      {
+        "seed": 686,
+        "percentage": 93.85148185547992,
+        "ranking": 228
+      },
+      {
+        "seed": 687,
+        "percentage": 95.70325124552798,
+        "ranking": 108
+      },
+      {
+        "seed": 688,
+        "percentage": 81.74544554354763,
+        "ranking": 23
+      },
+      {
+        "seed": 689,
+        "percentage": 86.13162920494032,
+        "ranking": 209
+      },
+      {
+        "seed": 690,
+        "percentage": 99.14915987980845,
+        "ranking": 14
+      },
+      {
+        "seed": 691,
+        "percentage": 82.92109344705935,
+        "ranking": 55
+      },
+      {
+        "seed": 692,
+        "percentage": 94.23053896985232,
+        "ranking": 197
+      },
+      {
+        "seed": 693,
+        "percentage": 83.85305981335736,
+        "ranking": 86
+      },
+      {
+        "seed": 694,
+        "percentage": 91.46953785467379,
+        "ranking": 392
+      },
+      {
+        "seed": 695,
+        "percentage": 92.72337451784527,
+        "ranking": 297
+      },
+      {
+        "seed": 696,
+        "percentage": 85.41839213765967,
+        "ranking": 165
+      },
+      {
+        "seed": 697,
+        "percentage": 94.22554241669704,
+        "ranking": 198
+      },
+      {
+        "seed": 698,
+        "percentage": 89.62648346031598,
+        "ranking": 443
+      },
+      {
+        "seed": 699,
+        "percentage": 91.02362695797407,
+        "ranking": 441
+      },
+      {
+        "seed": 700,
+        "percentage": 94.64309207454758,
+        "ranking": 167
+      },
+      {
+        "seed": 701,
+        "percentage": 84.42630128576985,
+        "ranking": 109
+      },
+      {
+        "seed": 702,
+        "percentage": 89.49589146635459,
+        "ranking": 431
+      },
+      {
+        "seed": 703,
+        "percentage": 93.49547880588578,
+        "ranking": 250
+      },
+      {
+        "seed": 704,
+        "percentage": 89.7322078116877,
+        "ranking": 455
+      },
+      {
+        "seed": 705,
+        "percentage": 81.7671389520406,
+        "ranking": 24
+      },
+      {
+        "seed": 706,
+        "percentage": 88.31871489218042,
+        "ranking": 334
+      },
+      {
+        "seed": 707,
+        "percentage": 92.34348924633096,
+        "ranking": 326
+      },
+      {
+        "seed": 708,
+        "percentage": 89.5547436991522,
+        "ranking": 440
+      },
+      {
+        "seed": 709,
+        "percentage": 83.24886556709144,
+        "ranking": 65
+      },
+      {
+        "seed": 710,
+        "percentage": 84.21201387901628,
+        "ranking": 101
+      },
+      {
+        "seed": 711,
+        "percentage": 90.56183183661815,
+        "ranking": 482
+      },
+      {
+        "seed": 712,
+        "percentage": 94.65249546839968,
+        "ranking": 165
+      },
+      {
+        "seed": 713,
+        "percentage": 89.4534723132452,
+        "ranking": 428
+      },
+      {
+        "seed": 714,
+        "percentage": 94.39611219330693,
+        "ranking": 186
+      },
+      {
+        "seed": 715,
+        "percentage": 93.02405446303419,
+        "ranking": 279
+      },
+      {
+        "seed": 716,
+        "percentage": 90.1938303286777,
+        "ranking": 488
+      },
+      {
+        "seed": 717,
+        "percentage": 83.76067959028641,
+        "ranking": 81
+      },
+      {
+        "seed": 718,
+        "percentage": 91.45891087264562,
+        "ranking": 393
+      },
+      {
+        "seed": 719,
+        "percentage": 95.78155583602368,
+        "ranking": 101
+      },
+      {
+        "seed": 720,
+        "percentage": 89.49538962130987,
+        "ranking": 430
+      },
+      {
+        "seed": 721,
+        "percentage": 87.89097629450403,
+        "ranking": 305
+      },
+      {
+        "seed": 722,
+        "percentage": 91.03293703997338,
+        "ranking": 439
+      },
+      {
+        "seed": 723,
+        "percentage": 85.26428339842799,
+        "ranking": 160
+      },
+      {
+        "seed": 724,
+        "percentage": 92.3896107603808,
+        "ranking": 324
+      },
+      {
+        "seed": 725,
+        "percentage": 85.57068812316103,
+        "ranking": 177
+      },
+      {
+        "seed": 726,
+        "percentage": 95.4904023370196,
+        "ranking": 123
+      },
+      {
+        "seed": 727,
+        "percentage": 86.33112490077713,
+        "ranking": 225
+      },
+      {
+        "seed": 728,
+        "percentage": 84.93922080827302,
+        "ranking": 136
+      },
+      {
+        "seed": 729,
+        "percentage": 89.15803435743175,
+        "ranking": 403
+      },
+      {
+        "seed": 730,
+        "percentage": 89.43441898030801,
+        "ranking": 424
+      },
+      {
+        "seed": 731,
+        "percentage": 93.7016358090143,
+        "ranking": 241
+      },
+      {
+        "seed": 732,
+        "percentage": 83.5651418278944,
+        "ranking": 79
+      },
+      {
+        "seed": 733,
+        "percentage": 84.7990016234759,
+        "ranking": 126
+      },
+      {
+        "seed": 734,
+        "percentage": 90.46571998053147,
+        "ranking": 493
+      },
+      {
+        "seed": 735,
+        "percentage": 95.75827513858223,
+        "ranking": 103
+      },
+      {
+        "seed": 736,
+        "percentage": 82.88741492796083,
+        "ranking": 54
+      },
+      {
+        "seed": 737,
+        "percentage": 95.32644352763691,
+        "ranking": 129
+      },
+      {
+        "seed": 738,
+        "percentage": 88.80268976805885,
+        "ranking": 380
+      },
+      {
+        "seed": 739,
+        "percentage": 84.95472904187505,
+        "ranking": 137
+      },
+      {
+        "seed": 740,
+        "percentage": 96.78873622235338,
+        "ranking": 71
+      },
+      {
+        "seed": 741,
+        "percentage": 93.91569008474653,
+        "ranking": 221
+      },
+      {
+        "seed": 742,
+        "percentage": 93.90657986255042,
+        "ranking": 224
+      },
+      {
+        "seed": 743,
+        "percentage": 84.81673712250729,
+        "ranking": 127
+      },
+      {
+        "seed": 744,
+        "percentage": 90.91288027380533,
+        "ranking": 449
+      },
+      {
+        "seed": 745,
+        "percentage": 94.70031458935621,
+        "ranking": 161
+      },
+      {
+        "seed": 746,
+        "percentage": 85.79031434140619,
+        "ranking": 192
+      },
+      {
+        "seed": 747,
+        "percentage": 95.58399826469822,
+        "ranking": 116
+      },
+      {
+        "seed": 748,
+        "percentage": 86.84210502839514,
+        "ranking": 247
+      },
+      {
+        "seed": 749,
+        "percentage": 90.73818858111778,
+        "ranking": 465
+      },
+      {
+        "seed": 750,
+        "percentage": 83.91069449816149,
+        "ranking": 89
+      },
+      {
+        "seed": 751,
+        "percentage": 94.75849170359304,
+        "ranking": 158
+      },
+      {
+        "seed": 752,
+        "percentage": 95.68392828061802,
+        "ranking": 109
+      },
+      {
+        "seed": 753,
+        "percentage": 84.96649666566115,
+        "ranking": 138
+      },
+      {
+        "seed": 754,
+        "percentage": 93.90661238021247,
+        "ranking": 223
+      },
+      {
+        "seed": 755,
+        "percentage": 87.0968613744435,
+        "ranking": 256
+      },
+      {
+        "seed": 756,
+        "percentage": 89.96409736427086,
+        "ranking": 473
+      },
+      {
+        "seed": 757,
+        "percentage": 96.89041923890429,
+        "ranking": 66
+      },
+      {
+        "seed": 758,
+        "percentage": 95.56859683020178,
+        "ranking": 117
+      },
+      {
+        "seed": 759,
+        "percentage": 98.6850917595782,
+        "ranking": 23
+      },
+      {
+        "seed": 760,
+        "percentage": 92.20674552212192,
+        "ranking": 334
+      },
+      {
+        "seed": 761,
+        "percentage": 80.41018793507749,
+        "ranking": 4
+      },
+      {
+        "seed": 762,
+        "percentage": 92.4542801923534,
+        "ranking": 315
+      },
+      {
+        "seed": 763,
+        "percentage": 93.33127025446377,
+        "ranking": 258
+      },
+      {
+        "seed": 764,
+        "percentage": 84.3090021849616,
+        "ranking": 106
+      },
+      {
+        "seed": 765,
+        "percentage": 90.45206924775425,
+        "ranking": 494
+      },
+      {
+        "seed": 766,
+        "percentage": 85.95512702772079,
+        "ranking": 199
+      },
+      {
+        "seed": 767,
+        "percentage": 86.6126650683735,
+        "ranking": 235
+      },
+      {
+        "seed": 768,
+        "percentage": 90.2844326075813,
+        "ranking": 497
+      },
+      {
+        "seed": 769,
+        "percentage": 96.20628257805907,
+        "ranking": 88
+      },
+      {
+        "seed": 770,
+        "percentage": 89.87882216692884,
+        "ranking": 465
+      },
+      {
+        "seed": 771,
+        "percentage": 91.80461523601397,
+        "ranking": 364
+      },
+      {
+        "seed": 772,
+        "percentage": 85.45676121107427,
+        "ranking": 170
+      },
+      {
+        "seed": 773,
+        "percentage": 80.998701060803,
+        "ranking": 10
+      },
+      {
+        "seed": 774,
+        "percentage": 98.15033031694678,
+        "ranking": 33
+      },
+      {
+        "seed": 775,
+        "percentage": 90.08918134914768,
+        "ranking": 482
+      },
+      {
+        "seed": 776,
+        "percentage": 83.38451280812785,
+        "ranking": 71
+      },
+      {
+        "seed": 777,
+        "percentage": 86.39257747326928,
+        "ranking": 227
+      },
+      {
+        "seed": 778,
+        "percentage": 89.13361005297322,
+        "ranking": 402
+      },
+      {
+        "seed": 779,
+        "percentage": 88.06805142022021,
+        "ranking": 316
+      },
+      {
+        "seed": 780,
+        "percentage": 80.54662051190509,
+        "ranking": 5
+      },
+      {
+        "seed": 781,
+        "percentage": 96.55363966310748,
+        "ranking": 80
+      },
+      {
+        "seed": 782,
+        "percentage": 89.83511025580037,
+        "ranking": 462
+      },
+      {
+        "seed": 783,
+        "percentage": 92.68764353293881,
+        "ranking": 299
+      },
+      {
+        "seed": 784,
+        "percentage": 85.82156602054366,
+        "ranking": 195
+      },
+      {
+        "seed": 785,
+        "percentage": 90.90817629632663,
+        "ranking": 450
+      },
+      {
+        "seed": 786,
+        "percentage": 95.73530466847096,
+        "ranking": 105
+      },
+      {
+        "seed": 787,
+        "percentage": 82.42414496468841,
+        "ranking": 44
+      },
+      {
+        "seed": 788,
+        "percentage": 88.07154026895087,
+        "ranking": 318
+      },
+      {
+        "seed": 789,
+        "percentage": 94.26837060962394,
+        "ranking": 194
+      },
+      {
+        "seed": 790,
+        "percentage": 97.21424878571909,
+        "ranking": 58
+      },
+      {
+        "seed": 791,
+        "percentage": 84.29571313748258,
+        "ranking": 105
+      },
+      {
+        "seed": 792,
+        "percentage": 84.53801893457837,
+        "ranking": 113
+      },
+      {
+        "seed": 793,
+        "percentage": 92.25590473091928,
+        "ranking": 332
+      },
+      {
+        "seed": 794,
+        "percentage": 87.83617125459406,
+        "ranking": 304
+      },
+      {
+        "seed": 795,
+        "percentage": 89.3986329533143,
+        "ranking": 423
+      },
+      {
+        "seed": 796,
+        "percentage": 90.69220010396106,
+        "ranking": 468
+      },
+      {
+        "seed": 797,
+        "percentage": 93.4954872391574,
+        "ranking": 249
+      },
+      {
+        "seed": 798,
+        "percentage": 90.27825634795964,
+        "ranking": 496
+      },
+      {
+        "seed": 799,
+        "percentage": 87.29456751592747,
+        "ranking": 269
+      },
+      {
+        "seed": 800,
+        "percentage": 98.00310672123935,
+        "ranking": 38
+      },
+      {
+        "seed": 801,
+        "percentage": 93.22125504443873,
+        "ranking": 264
+      },
+      {
+        "seed": 802,
+        "percentage": 88.93156807453789,
+        "ranking": 387
+      },
+      {
+        "seed": 803,
+        "percentage": 80.84308073930762,
+        "ranking": 6
+      },
+      {
+        "seed": 804,
+        "percentage": 94.06672055675948,
+        "ranking": 207
+      },
+      {
+        "seed": 805,
+        "percentage": 84.04799962868641,
+        "ranking": 95
+      },
+      {
+        "seed": 806,
+        "percentage": 95.08088367926419,
+        "ranking": 140
+      },
+      {
+        "seed": 807,
+        "percentage": 99.46768372384648,
+        "ranking": 9
+      },
+      {
+        "seed": 808,
+        "percentage": 92.4262925955076,
+        "ranking": 320
+      },
+      {
+        "seed": 809,
+        "percentage": 86.07896473101415,
+        "ranking": 206
+      },
+      {
+        "seed": 810,
+        "percentage": 87.43444136399486,
+        "ranking": 284
+      },
+      {
+        "seed": 811,
+        "percentage": 91.88823864410499,
+        "ranking": 357
+      },
+      {
+        "seed": 812,
+        "percentage": 85.10068862037542,
+        "ranking": 149
+      },
+      {
+        "seed": 813,
+        "percentage": 90.79924183236615,
+        "ranking": 463
+      },
+      {
+        "seed": 814,
+        "percentage": 89.80911116710897,
+        "ranking": 459
+      },
+      {
+        "seed": 815,
+        "percentage": 95.82919024324285,
+        "ranking": 100
+      },
+      {
+        "seed": 816,
+        "percentage": 86.1745326746,
+        "ranking": 213
+      },
+      {
+        "seed": 817,
+        "percentage": 83.9280573128362,
+        "ranking": 91
+      },
+      {
+        "seed": 818,
+        "percentage": 88.61429939898822,
+        "ranking": 363
+      },
+      {
+        "seed": 819,
+        "percentage": 95.31306453928951,
+        "ranking": 130
+      },
+      {
+        "seed": 820,
+        "percentage": 84.8220758314099,
+        "ranking": 129
+      },
+      {
+        "seed": 821,
+        "percentage": 92.59676921873964,
+        "ranking": 304
+      },
+      {
+        "seed": 822,
+        "percentage": 85.1371176338734,
+        "ranking": 151
+      },
+      {
+        "seed": 823,
+        "percentage": 92.54841091443653,
+        "ranking": 308
+      },
+      {
+        "seed": 824,
+        "percentage": 96.77656401569678,
+        "ranking": 73
+      },
+      {
+        "seed": 825,
+        "percentage": 95.64499711758364,
+        "ranking": 115
+      },
+      {
+        "seed": 826,
+        "percentage": 85.65273062640877,
+        "ranking": 182
+      },
+      {
+        "seed": 827,
+        "percentage": 95.08098297541491,
+        "ranking": 139
+      },
+      {
+        "seed": 828,
+        "percentage": 91.88031395217257,
+        "ranking": 359
+      },
+      {
+        "seed": 829,
+        "percentage": 95.86377050578997,
+        "ranking": 97
+      },
+      {
+        "seed": 830,
+        "percentage": 94.77363789002271,
+        "ranking": 157
+      },
+      {
+        "seed": 831,
+        "percentage": 95.55940341964455,
+        "ranking": 119
+      },
+      {
+        "seed": 832,
+        "percentage": 86.65824119516172,
+        "ranking": 239
+      },
+      {
+        "seed": 833,
+        "percentage": 87.02073577910915,
+        "ranking": 252
+      },
+      {
+        "seed": 834,
+        "percentage": 95.19959456916445,
+        "ranking": 132
+      },
+      {
+        "seed": 835,
+        "percentage": 93.76621911144656,
+        "ranking": 236
+      },
+      {
+        "seed": 836,
+        "percentage": 94.96667702712998,
+        "ranking": 150
+      },
+      {
+        "seed": 837,
+        "percentage": 94.30449210436717,
+        "ranking": 192
+      },
+      {
+        "seed": 838,
+        "percentage": 91.38666275658386,
+        "ranking": 405
+      },
+      {
+        "seed": 839,
+        "percentage": 90.19897427722937,
+        "ranking": 489
+      },
+      {
+        "seed": 840,
+        "percentage": 93.78307177423123,
+        "ranking": 232
+      },
+      {
+        "seed": 841,
+        "percentage": 94.26963868821616,
+        "ranking": 193
+      },
+      {
+        "seed": 842,
+        "percentage": 91.37938125652093,
+        "ranking": 407
+      },
+      {
+        "seed": 843,
+        "percentage": 89.62397154239392,
+        "ranking": 441
+      },
+      {
+        "seed": 844,
+        "percentage": 82.00545850696952,
+        "ranking": 30
+      },
+      {
+        "seed": 845,
+        "percentage": 87.25929920195888,
+        "ranking": 265
+      },
+      {
+        "seed": 846,
+        "percentage": 91.24918912462502,
+        "ranking": 416
+      },
+      {
+        "seed": 847,
+        "percentage": 89.7045518709221,
+        "ranking": 452
+      },
+      {
+        "seed": 848,
+        "percentage": 94.49638075471654,
+        "ranking": 175
+      },
+      {
+        "seed": 849,
+        "percentage": 99.18648277253007,
+        "ranking": 13
+      },
+      {
+        "seed": 850,
+        "percentage": 92.9213398840448,
+        "ranking": 284
+      },
+      {
+        "seed": 851,
+        "percentage": 89.29696417160964,
+        "ranking": 413
+      },
+      {
+        "seed": 852,
+        "percentage": 87.55174605682829,
+        "ranking": 286
+      },
+      {
+        "seed": 853,
+        "percentage": 83.08874977155777,
+        "ranking": 61
+      },
+      {
+        "seed": 854,
+        "percentage": 81.7152514080937,
+        "ranking": 22
+      },
+      {
+        "seed": 855,
+        "percentage": 91.40169517612786,
+        "ranking": 402
+      },
+      {
+        "seed": 856,
+        "percentage": 95.67925964744833,
+        "ranking": 110
+      },
+      {
+        "seed": 857,
+        "percentage": 85.75991876974602,
+        "ranking": 187
+      },
+      {
+        "seed": 858,
+        "percentage": 82.15161694376576,
+        "ranking": 35
+      },
+      {
+        "seed": 859,
+        "percentage": 90.87405624721097,
+        "ranking": 452
+      },
+      {
+        "seed": 860,
+        "percentage": 96.87146891420224,
+        "ranking": 68
+      },
+      {
+        "seed": 861,
+        "percentage": 85.16635455497506,
+        "ranking": 154
+      },
+      {
+        "seed": 862,
+        "percentage": 90.51666421697317,
+        "ranking": 488
+      },
+      {
+        "seed": 863,
+        "percentage": 94.91677581599208,
+        "ranking": 151
+      },
+      {
+        "seed": 864,
+        "percentage": 95.33704941373544,
+        "ranking": 128
+      },
+      {
+        "seed": 865,
+        "percentage": 83.9149494889225,
+        "ranking": 90
+      },
+      {
+        "seed": 866,
+        "percentage": 91.70058642743594,
+        "ranking": 375
+      },
+      {
+        "seed": 867,
+        "percentage": 89.2211709940315,
+        "ranking": 407
+      },
+      {
+        "seed": 868,
+        "percentage": 82.28440037886872,
+        "ranking": 39
+      },
+      {
+        "seed": 869,
+        "percentage": 84.68274952399959,
+        "ranking": 123
+      },
+      {
+        "seed": 870,
+        "percentage": 95.70765992772759,
+        "ranking": 106
+      },
+      {
+        "seed": 871,
+        "percentage": 88.06900343569566,
+        "ranking": 317
+      },
+      {
+        "seed": 872,
+        "percentage": 98.8462446000755,
+        "ranking": 21
+      },
+      {
+        "seed": 873,
+        "percentage": 90.13536115971851,
+        "ranking": 485
+      },
+      {
+        "seed": 874,
+        "percentage": 86.12080920126353,
+        "ranking": 208
+      },
+      {
+        "seed": 875,
+        "percentage": 94.04909840825518,
+        "ranking": 211
+      },
+      {
+        "seed": 876,
+        "percentage": 81.68828215844121,
+        "ranking": 21
+      },
+      {
+        "seed": 877,
+        "percentage": 91.77509209247486,
+        "ranking": 372
+      },
+      {
+        "seed": 878,
+        "percentage": 90.27340753314762,
+        "ranking": 495
+      },
+      {
+        "seed": 879,
+        "percentage": 91.51568241508609,
+        "ranking": 388
+      },
+      {
+        "seed": 880,
+        "percentage": 92.46424956813416,
+        "ranking": 313
+      },
+      {
+        "seed": 881,
+        "percentage": 91.38040592663887,
+        "ranking": 406
+      },
+      {
+        "seed": 882,
+        "percentage": 90.8292279757971,
+        "ranking": 458
+      },
+      {
+        "seed": 883,
+        "percentage": 90.6301471188439,
+        "ranking": 475
+      },
+      {
+        "seed": 884,
+        "percentage": 91.1248825607966,
+        "ranking": 432
+      },
+      {
+        "seed": 885,
+        "percentage": 93.55888415117585,
+        "ranking": 245
+      },
+      {
+        "seed": 886,
+        "percentage": 96.5037203843904,
+        "ranking": 82
+      },
+      {
+        "seed": 887,
+        "percentage": 90.52360751497665,
+        "ranking": 487
+      },
+      {
+        "seed": 888,
+        "percentage": 93.12619326630733,
+        "ranking": 272
+      },
+      {
+        "seed": 889,
+        "percentage": 92.08945496754971,
+        "ranking": 342
+      },
+      {
+        "seed": 890,
+        "percentage": 86.19935604834015,
+        "ranking": 216
+      },
+      {
+        "seed": 891,
+        "percentage": 90.73058441003658,
+        "ranking": 466
+      },
+      {
+        "seed": 892,
+        "percentage": 94.44941277475196,
+        "ranking": 184
+      },
+      {
+        "seed": 893,
+        "percentage": 87.67789687409011,
+        "ranking": 296
+      },
+      {
+        "seed": 894,
+        "percentage": 84.78712722505209,
+        "ranking": 125
+      },
+      {
+        "seed": 895,
+        "percentage": 97.95572078347027,
+        "ranking": 39
+      },
+      {
+        "seed": 896,
+        "percentage": 86.79785878532691,
+        "ranking": 246
+      },
+      {
+        "seed": 897,
+        "percentage": 99.70048017465592,
+        "ranking": 4
+      },
+      {
+        "seed": 898,
+        "percentage": 91.95972369792649,
+        "ranking": 349
+      },
+      {
+        "seed": 899,
+        "percentage": 89.30348542712979,
+        "ranking": 415
+      },
+      {
+        "seed": 900,
+        "percentage": 88.03926209411543,
+        "ranking": 314
+      },
+      {
+        "seed": 901,
+        "percentage": 90.60019463967384,
+        "ranking": 478
+      },
+      {
+        "seed": 902,
+        "percentage": 91.09769464318887,
+        "ranking": 435
+      },
+      {
+        "seed": 903,
+        "percentage": 88.48575331064964,
+        "ranking": 353
+      },
+      {
+        "seed": 904,
+        "percentage": 88.17377252438295,
+        "ranking": 325
+      },
+      {
+        "seed": 905,
+        "percentage": 91.74540641325837,
+        "ranking": 374
+      },
+      {
+        "seed": 906,
+        "percentage": 90.44351369846854,
+        "ranking": 496
+      },
+      {
+        "seed": 907,
+        "percentage": 85.54454266716684,
+        "ranking": 174
+      },
+      {
+        "seed": 908,
+        "percentage": 83.9606813476098,
+        "ranking": 92
+      },
+      {
+        "seed": 909,
+        "percentage": 87.21008153929125,
+        "ranking": 260
+      },
+      {
+        "seed": 910,
+        "percentage": 96.22417245735895,
+        "ranking": 87
+      },
+      {
+        "seed": 911,
+        "percentage": 96.090705023251,
+        "ranking": 95
+      },
+      {
+        "seed": 912,
+        "percentage": 90.82322339816463,
+        "ranking": 460
+      },
+      {
+        "seed": 913,
+        "percentage": 91.28595066166854,
+        "ranking": 414
+      },
+      {
+        "seed": 914,
+        "percentage": 95.76970124135218,
+        "ranking": 102
+      },
+      {
+        "seed": 915,
+        "percentage": 98.45491866609126,
+        "ranking": 28
+      },
+      {
+        "seed": 916,
+        "percentage": 91.00180966108051,
+        "ranking": 445
+      },
+      {
+        "seed": 917,
+        "percentage": 90.9508929878056,
+        "ranking": 447
+      },
+      {
+        "seed": 918,
+        "percentage": 82.79850573649937,
+        "ranking": 51
+      },
+      {
+        "seed": 919,
+        "percentage": 91.42008177786032,
+        "ranking": 397
+      },
+      {
+        "seed": 920,
+        "percentage": 88.76648463651621,
+        "ranking": 377
+      },
+      {
+        "seed": 921,
+        "percentage": 91.84664536623892,
+        "ranking": 361
+      },
+      {
+        "seed": 922,
+        "percentage": 89.34243838844199,
+        "ranking": 418
+      },
+      {
+        "seed": 923,
+        "percentage": 88.0577438754264,
+        "ranking": 315
+      },
+      {
+        "seed": 924,
+        "percentage": 93.7764621790622,
+        "ranking": 234
+      },
+      {
+        "seed": 925,
+        "percentage": 96.63833754631912,
+        "ranking": 78
+      },
+      {
+        "seed": 926,
+        "percentage": 93.74828873597704,
+        "ranking": 237
+      },
+      {
+        "seed": 927,
+        "percentage": 89.03014356303689,
+        "ranking": 397
+      },
+      {
+        "seed": 928,
+        "percentage": 90.82523189697149,
+        "ranking": 459
+      },
+      {
+        "seed": 929,
+        "percentage": 87.90912030000544,
+        "ranking": 306
+      },
+      {
+        "seed": 930,
+        "percentage": 87.57429785486528,
+        "ranking": 288
+      },
+      {
+        "seed": 931,
+        "percentage": 87.75422794067364,
+        "ranking": 300
+      },
+      {
+        "seed": 932,
+        "percentage": 92.52155551538496,
+        "ranking": 310
+      },
+      {
+        "seed": 933,
+        "percentage": 91.91545292641067,
+        "ranking": 354
+      },
+      {
+        "seed": 934,
+        "percentage": 87.61527026289414,
+        "ranking": 291
+      },
+      {
+        "seed": 935,
+        "percentage": 85.07085438439906,
+        "ranking": 146
+      },
+      {
+        "seed": 936,
+        "percentage": 98.98984778286132,
+        "ranking": 18
+      },
+      {
+        "seed": 937,
+        "percentage": 86.17528075147519,
+        "ranking": 214
+      },
+      {
+        "seed": 938,
+        "percentage": 88.45826639782514,
+        "ranking": 349
+      },
+      {
+        "seed": 939,
+        "percentage": 88.5043936703078,
+        "ranking": 356
+      },
+      {
+        "seed": 940,
+        "percentage": 94.38548677610821,
+        "ranking": 188
+      },
+      {
+        "seed": 941,
+        "percentage": 84.35092338877585,
+        "ranking": 107
+      },
+      {
+        "seed": 942,
+        "percentage": 90.58178495837872,
+        "ranking": 479
+      },
+      {
+        "seed": 943,
+        "percentage": 95.01737009393939,
+        "ranking": 147
+      },
+      {
+        "seed": 944,
+        "percentage": 94.46679462029273,
+        "ranking": 179
+      },
+      {
+        "seed": 945,
+        "percentage": 86.49312538911059,
+        "ranking": 231
+      },
+      {
+        "seed": 946,
+        "percentage": 96.94255616573312,
+        "ranking": 62
+      },
+      {
+        "seed": 947,
+        "percentage": 90.6226088494007,
+        "ranking": 477
+      },
+      {
+        "seed": 948,
+        "percentage": 89.07600268402987,
+        "ranking": 399
+      },
+      {
+        "seed": 949,
+        "percentage": 83.47160654532657,
+        "ranking": 75
+      },
+      {
+        "seed": 950,
+        "percentage": 92.77961764954212,
+        "ranking": 294
+      },
+      {
+        "seed": 951,
+        "percentage": 88.37502171034244,
+        "ranking": 339
+      },
+      {
+        "seed": 952,
+        "percentage": 93.53296881516752,
+        "ranking": 248
+      },
+      {
+        "seed": 953,
+        "percentage": 93.95907837354636,
+        "ranking": 218
+      },
+      {
+        "seed": 954,
+        "percentage": 92.47357916865207,
+        "ranking": 312
+      },
+      {
+        "seed": 955,
+        "percentage": 89.63186517427584,
+        "ranking": 445
+      },
+      {
+        "seed": 956,
+        "percentage": 96.91958345696919,
+        "ranking": 64
+      },
+      {
+        "seed": 957,
+        "percentage": 95.56646511559396,
+        "ranking": 118
+      },
+      {
+        "seed": 958,
+        "percentage": 89.52868150866584,
+        "ranking": 437
+      },
+      {
+        "seed": 959,
+        "percentage": 90.03256616048489,
+        "ranking": 477
+      },
+      {
+        "seed": 960,
+        "percentage": 92.61446811175435,
+        "ranking": 303
+      },
+      {
+        "seed": 961,
+        "percentage": 99.68775281465477,
+        "ranking": 6
+      },
+      {
+        "seed": 962,
+        "percentage": 90.3663335332879,
+        "ranking": 501
+      },
+      {
+        "seed": 963,
+        "percentage": 90.03517204620164,
+        "ranking": 478
+      },
+      {
+        "seed": 964,
+        "percentage": 92.79175436295523,
+        "ranking": 292
+      },
+      {
+        "seed": 965,
+        "percentage": 89.27617352606042,
+        "ranking": 411
+      },
+      {
+        "seed": 966,
+        "percentage": 85.15350906213513,
+        "ranking": 153
+      },
+      {
+        "seed": 967,
+        "percentage": 90.35116048105688,
+        "ranking": 500
+      },
+      {
+        "seed": 968,
+        "percentage": 97.22198972979437,
+        "ranking": 57
+      },
+      {
+        "seed": 969,
+        "percentage": 84.01167551035611,
+        "ranking": 94
+      },
+      {
+        "seed": 970,
+        "percentage": 89.99926414337884,
+        "ranking": 475
+      },
+      {
+        "seed": 971,
+        "percentage": 87.33406092198942,
+        "ranking": 273
+      },
+      {
+        "seed": 972,
+        "percentage": 90.30560847731608,
+        "ranking": 498
+      },
+      {
+        "seed": 973,
+        "percentage": 87.29900589146659,
+        "ranking": 271
+      },
+      {
+        "seed": 974,
+        "percentage": 95.1166289700373,
+        "ranking": 135
+      },
+      {
+        "seed": 975,
+        "percentage": 93.9973184739891,
+        "ranking": 216
+      },
+      {
+        "seed": 976,
+        "percentage": 84.1252428616047,
+        "ranking": 98
+      },
+      {
+        "seed": 977,
+        "percentage": 87.71907849758048,
+        "ranking": 299
+      },
+      {
+        "seed": 978,
+        "percentage": 90.85682500349799,
+        "ranking": 455
+      },
+      {
+        "seed": 979,
+        "percentage": 92.79275036896814,
+        "ranking": 291
+      },
+      {
+        "seed": 980,
+        "percentage": 83.77409704480037,
+        "ranking": 83
+      },
+      {
+        "seed": 981,
+        "percentage": 95.74260642048841,
+        "ranking": 104
+      },
+      {
+        "seed": 982,
+        "percentage": 81.7807831281248,
+        "ranking": 25
+      },
+      {
+        "seed": 983,
+        "percentage": 91.07027483867749,
+        "ranking": 436
+      },
+      {
+        "seed": 984,
+        "percentage": 94.75659329850176,
+        "ranking": 159
+      },
+      {
+        "seed": 985,
+        "percentage": 90.7061070186907,
+        "ranking": 467
+      },
+      {
+        "seed": 986,
+        "percentage": 92.14496047557444,
+        "ranking": 337
+      },
+      {
+        "seed": 987,
+        "percentage": 93.47825471942372,
+        "ranking": 252
+      },
+      {
+        "seed": 988,
+        "percentage": 84.8501949608752,
+        "ranking": 130
+      },
+      {
+        "seed": 989,
+        "percentage": 86.381864048333,
+        "ranking": 226
+      },
+      {
+        "seed": 990,
+        "percentage": 94.37190779578329,
+        "ranking": 189
+      },
+      {
+        "seed": 991,
+        "percentage": 89.52159922736412,
+        "ranking": 436
+      },
+      {
+        "seed": 992,
+        "percentage": 85.79156288422193,
+        "ranking": 193
+      },
+      {
+        "seed": 993,
+        "percentage": 90.11557300517828,
+        "ranking": 484
+      },
+      {
+        "seed": 994,
+        "percentage": 82.40148030909107,
+        "ranking": 43
+      },
+      {
+        "seed": 995,
+        "percentage": 96.12434776698598,
+        "ranking": 92
+      },
+      {
+        "seed": 996,
+        "percentage": 91.2391101786935,
+        "ranking": 418
+      },
+      {
+        "seed": 997,
+        "percentage": 87.24496985721582,
+        "ranking": 263
+      },
+      {
+        "seed": 998,
+        "percentage": 89.71727086455536,
+        "ranking": 453
+      },
+      {
+        "seed": 999,
+        "percentage": 89.72107504169335,
+        "ranking": 454
+      },
+      {
+        "seed": 1000,
+        "percentage": 82.28806779896028,
+        "ranking": 40
+      }
+    ]
+  }
+]
