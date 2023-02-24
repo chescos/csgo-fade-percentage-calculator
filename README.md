@@ -8,9 +8,10 @@
 ![GitHub Build Workflow Status](https://img.shields.io/github/actions/workflow/status/chescos/csgo-fade-percentage-calculator/build.yml?branch=master&label=build)
 
 Calculate the Fade percentage value of a CS:GO skin based on a given seed value. Supporting all
-[Fade skins](https://csgoskins.gg/families/fade) except for gloves. Easily convert every paint seed
-(also called pattern index) into a fade percentage value, or get a full list of all paint seeds and
-the corresponding fade percentages.
+[Fade skins](https://csgoskins.gg/families/fade) (except for gloves),
+[Amber Fade skins](https://csgoskins.gg/families/amber-fade), and
+[Acid Fade skins](https://csgoskins.gg/families/acid-fade). Easily convert every paint seed (also called pattern index)
+into a fade percentage value, or get a full list of all paint seeds and the corresponding fade percentages.
 
 ## 🚀 Installation
 
@@ -23,32 +24,38 @@ npm install csgo-fade-percentage-calculator
 
 ## 🛠 Usage
 
-```js
-const { FadeCalculator } = require('csgo-fade-percentage-calculator');
+There are three modules which all share the same four methods as shown in the examples below:
 
-// Get a list of all fade percentages for all available weapons.
+```js
+const {
+  FadeCalculator,
+  AmberFadeCalculator,
+  AcidFadeCalculator,
+} = require('csgo-fade-percentage-calculator');
+
+// Get a list of all Fade percentages for all available weapons.
 const allFadePercentages = FadeCalculator.getAllFadePercentages();
 
-// Get a list of fade percentages for the Karambit.
-const karambitFadePercentages = FadeCalculator.getFadePercentages('Karambit');
+// Get a list of Amber Fade percentages for the P2000.
+const p2000AmberFadePercentages = AmberFadeCalculator.getFadePercentages('P2000');
 
-// Get the fade percentage for the AWP and the seed 123.
-const awpFadePercentage = FadeCalculator.getFadePercentage('AWP', 123);
+// Get the Acid Fade percentage for the SSG 08 and the seed 123.
+const ssgAcidFadePercentage = AcidFadeCalculator.getFadePercentage('SSG 08', 123);
 
-// Get all supported weapons.
+// Get all supported Fade weapons.
 const supportedWeapons = FadeCalculator.getSupportedWeapons();
 ```
 
 ## 📜 How It Works
 
-Each CS:GO weapon skin has a random paint seed value between 0 and 999. This paint seed value, sometimes also
+Each CS:GO weapon skin has a random paint seed value between 0 and 1000. This paint seed value, sometimes also
 called pattern index, determines the positioning of the pattern on the gun. Specifically, the paint seed determines
 the X offset, Y offset, and rotation value for the pattern position. Those three values can be calculated using
 an algorithm which has been open-sourced by Valve.
 
-Luckily, all Fade skins have the same X and Y offsets, and only the rotation value changes with each paint seed.
+Luckily, most Fade skins have the same X and Y offsets, and only the rotation value changes with each paint seed.
 This package simply converts paint seeds to rotation values, and then assigns each rotation value a fade percentage
-between 80 and 100, where the lowest rotation value is a 100% Fade, and the highest rotation value is an 80% Fade.
+between 80 and 100, where the worst rotation value is a 100% Fade, and the best rotation value is an 80% Fade.
 
 The whole process just involves simple math, and it is superior to alternative methods such as image pixel color
 analysis for various reasons:
@@ -68,6 +75,7 @@ this package:
 - [SkinsMonkey](https://skinsmonkey.com/)
 - [SkinBid](https://skinbid.com/)
 - [BitSkins](https://p2p.bitskins.com/)
+- [CSGOFloat](https://csgofloat.com/)
 
 Other sites are currently known to use their own algorithms, probably based on image analysis. These sites come
 to different conclusions which paint seed corresponds to which fade value, as pixel color analysis is not
@@ -77,6 +85,7 @@ very accurate to determine a fade value:
 - [BUFF163](https://buff.163.com/)
 - [BUFF Market](https://buff.market/)
 - [BroSkins](https://broskins.com/)
+- [CS.DEALS](https://cs.deals/)
 
 ## 💻 Other Programming Languages
 
