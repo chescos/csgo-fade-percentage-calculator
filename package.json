@@ -7,7 +7,7 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "unpkg": "dist/umd/index.min.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/esm/index.d.ts",
   "exports": {
     ".": {
       "require": "./dist/cjs/index.js",
