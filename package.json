@@ -1,6 +1,6 @@
 {
   "name": "csgo-fade-percentage-calculator",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "author": "chescos",
   "license": "MIT",
   "description": "Calculate the Fade percentage of a CS:GO skin using its paint seed.",
