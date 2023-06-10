@@ -1,6 +1,8 @@
 import * as path from 'path';
 import * as fs from 'fs';
-import { FadeCalculator, AmberFadeCalculator, AcidFadeCalculator } from './src';
+import {
+  FadeCalculator, AmberFadeCalculator, AcidFadeCalculator, BerriesAndCherriesCalculator,
+} from './src';
 
 const config = [
   {
@@ -14,6 +16,10 @@ const config = [
   {
     percentages: AcidFadeCalculator.getAllFadePercentages(),
     type: 'acid-fade',
+  },
+  {
+    percentages: BerriesAndCherriesCalculator.getAllFadePercentages(),
+    type: 'berries-and-cherries',
   },
 ];
 
