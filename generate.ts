@@ -1,7 +1,7 @@
 import * as path from 'path';
 import * as fs from 'fs';
 import {
-  FadeCalculator, AmberFadeCalculator, AcidFadeCalculator, BerriesAndCherriesCalculator,
+  FadeCalculator, AmberFadeCalculator, AcidFadeCalculator,
 } from './src';
 
 const config = [
@@ -16,11 +16,7 @@ const config = [
   {
     percentages: AcidFadeCalculator.getAllFadePercentages(),
     type: 'acid-fade',
-  },
-  {
-    percentages: BerriesAndCherriesCalculator.getAllFadePercentages(),
-    type: 'berries-and-cherries',
-  },
+  }
 ];
 
 config.forEach((entry) => {
