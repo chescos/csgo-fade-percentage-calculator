@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import FadeCalculatorModule from './modules/FadeCalculator';
 import AmberFadeCalculatorModule from './modules/AmberFadeCalculator';
 import AcidFadeCalculatorModule from './modules/AcidFadeCalculator';
