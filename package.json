@@ -23,7 +23,7 @@
     "test": "jest --config jest.config.js",
     "lint": "eslint src",
     "generate": "ts-node generate.ts",
-    "build": "npm run clean && npm run bundle:cjs && npm run bundle:esm && npm run bundle:umd && npm run bundle:umd:min && ts-node fixup.ts",
+    "build": "npm run clean && npm run bundle:cjs && npm run bundle:esm && npm run bundle:umd && npm run bundle:umd:min && && ts-node fixup.ts",
     "bundle:cjs": "tsc --module commonjs --target es6 --outDir dist/cjs",
     "bundle:esm": "tsc --module es6 --target es6 --outDir dist/esm",
     "bundle:umd": "rollup dist/esm/index.js --file dist/umd/index.js --format umd --name FadeCalculator",
