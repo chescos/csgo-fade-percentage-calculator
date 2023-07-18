@@ -1,4 +1,4 @@
-import BaseCalculator from './BaseCalculator.js';
+import BaseCalculator from './BaseCalculator';
 
 class AcidFadeCalculator extends BaseCalculator {
   weapons = [

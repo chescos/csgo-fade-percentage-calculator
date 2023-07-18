@@ -1,4 +1,4 @@
-import RandomNumberGenerator from './RandomNumberGenerator.js';
+import RandomNumberGenerator from './RandomNumberGenerator';
 
 interface WeaponConfig {
   pattern_offset_x_start: number,
