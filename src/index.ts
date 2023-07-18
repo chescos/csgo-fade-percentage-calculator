@@ -1,6 +1,6 @@
-import FadeCalculatorModule from './modules/FadeCalculator';
-import AmberFadeCalculatorModule from './modules/AmberFadeCalculator';
-import AcidFadeCalculatorModule from './modules/AcidFadeCalculator';
+import FadeCalculatorModule from './modules/FadeCalculator.js';
+import AmberFadeCalculatorModule from './modules/AmberFadeCalculator.js';
+import AcidFadeCalculatorModule from './modules/AcidFadeCalculator.js';
 
 export const FadeCalculator = new FadeCalculatorModule();
 export const AmberFadeCalculator = new AmberFadeCalculatorModule();

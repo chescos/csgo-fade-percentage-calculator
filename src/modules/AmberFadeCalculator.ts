@@ -1,4 +1,4 @@
-import BaseCalculator from './BaseCalculator';
+import BaseCalculator from './BaseCalculator.js';
 
 class AmberFadeCalculator extends BaseCalculator {
   weapons = [
