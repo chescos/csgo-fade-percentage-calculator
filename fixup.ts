@@ -1,12 +1,14 @@
 import * as path from 'path';
 import * as fs from 'fs';
 
+// Our package.json does not include `"type": "module"`, which is required for ESM
+// packages to work. So we need to manually add this after compiling.
+fs.writeFileSync(path.join(__dirname, './dist/esm/package.json'), JSON.stringify({
+    type: 'module',
+  }));
+
 fs.writeFileSync(path.join(__dirname, './dist/cjs/package.json'), JSON.stringify({
   type: 'commonjs',
-}));
-
-fs.writeFileSync(path.join(__dirname, './dist/esm/package.json'), JSON.stringify({
-  type: 'module',
 }));
 
 const formatFile = (filePath: string): void => {
@@ -33,4 +35,5 @@ const processFiles = (baseFolder: string): void => {
   });
 };
 
+// We also have to add explicit `.js` file extensions for our ESM imports.
 processFiles('./dist/esm');
