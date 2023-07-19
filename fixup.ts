@@ -4,8 +4,8 @@ import * as fs from 'fs';
 // Our package.json does not include `"type": "module"`, which is required for ESM
 // packages to work. So we need to manually add this after compiling.
 fs.writeFileSync(path.join(__dirname, './dist/esm/package.json'), JSON.stringify({
-    type: 'module',
-  }));
+  type: 'module',
+}));
 
 fs.writeFileSync(path.join(__dirname, './dist/cjs/package.json'), JSON.stringify({
   type: 'commonjs',
