@@ -55,7 +55,7 @@ an algorithm which has been open-sourced by Valve.
 
 Luckily, most Fade skins have the same X and Y offsets, and only the rotation value changes with each paint seed.
 This package simply converts paint seeds to rotation values, and then assigns each rotation value a fade percentage
-between 80 and 100, where the worst rotation value is a 100% Fade, and the best rotation value is an 80% Fade.
+between 80 and 100, where the best rotation value is a 100% Fade, and the worst rotation value is an 80% Fade.
 
 The whole process just involves simple math, and it is superior to alternative methods such as image pixel color
 analysis for various reasons:
@@ -74,7 +74,7 @@ this package:
 - [CSGOSKINS.GG](https://csgoskins.gg/)
 - [SkinsMonkey](https://skinsmonkey.com/)
 - [SkinBid](https://skinbid.com/)
-- [BitSkins](https://p2p.bitskins.com/)
+- [BitSkins](https://bitskins.com/)
 - [CSGOFloat](https://csgofloat.com/)
 
 Other sites are currently known to use their own algorithms, probably based on image analysis. These sites come
