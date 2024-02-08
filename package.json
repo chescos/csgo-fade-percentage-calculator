@@ -3,7 +3,7 @@
   "version": "1.1.4",
   "author": "chescos",
   "license": "MIT",
-  "description": "Calculate the Fade percentage of a CS:GO skin using its paint seed.",
+  "description": "Calculate the Fade percentage of a CS2 skin using its paint seed.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "unpkg": "dist/umd/index.min.js",
@@ -15,9 +15,9 @@
     }
   },
   "keywords": [
-    "csgo",
+    "cs2",
     "fade",
-    "csgo fade"
+    "cs2 fade"
   ],
   "scripts": {
     "test": "jest --config jest.config.js",
