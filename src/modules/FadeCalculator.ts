@@ -13,6 +13,7 @@ class FadeCalculator extends BaseCalculator {
     'Gut Knife',
     'Huntsman Knife',
     'Karambit',
+    'Kukri Knife',
     'M9 Bayonet',
     'MAC-10',
     'MP7',
