@@ -86,7 +86,15 @@ abstract class BaseCalculator {
       let rawResult: number;
 
       if (config.pattern_offset_x_start !== config.pattern_offset_x_end) {
-        rawResult = rotation * xOffset;
+        const rotationRange = Math.abs(config.pattern_rotate_end - config.pattern_rotate_start);
+        const rotationDistance = Math.abs(config.pattern_rotate_end - rotation);
+        const rotationPercentage = 100 * (1 - (rotationDistance / rotationRange));
+
+        const xOffsetRange = Math.abs(config.pattern_offset_x_end - config.pattern_offset_x_start);
+        const xOffsetDistance = Math.abs(config.pattern_offset_x_end - xOffset);
+        const xOffsetPercentage = 100 * (xOffsetDistance / xOffsetRange);
+
+        rawResult = (rotationPercentage * 0.5) + xOffsetPercentage;
       } else {
         rawResult = rotation;
       }
