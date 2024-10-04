@@ -85,10 +85,18 @@ abstract class BaseCalculator {
 
       let rawResult: number;
 
-      if (config.pattern_offset_x_start !== config.pattern_offset_x_end) {
+      const usesRotation = config.pattern_rotate_start !== config.pattern_rotate_end;
+      const usesXOffset = config.pattern_offset_x_start !== config.pattern_offset_x_end;
+
+      if (usesRotation && usesXOffset) {
+        // Some skins like the MP7 use both the rotation and X offset.
         rawResult = rotation * xOffset;
-      } else {
+      } else if (usesRotation) {
+        // Most skins only use the rotation.
         rawResult = rotation;
+      } else {
+        // Some skins like the M4A1-S only use the X offset.
+        rawResult = xOffset;
       }
 
       rawResults.push(Math.abs(rawResult));

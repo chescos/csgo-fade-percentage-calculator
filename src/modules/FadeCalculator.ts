@@ -14,6 +14,7 @@ class FadeCalculator extends BaseCalculator {
     'Huntsman Knife',
     'Karambit',
     'Kukri Knife',
+    'M4A1-S',
     'M9 Bayonet',
     'MAC-10',
     'MP7',
@@ -39,6 +40,7 @@ class FadeCalculator extends BaseCalculator {
   tradeUpWeapons = [
     'AWP',
     'Glock-18',
+    'M4A1-S',
     'MAC-10',
     'MP7',
     'R8 Revolver',
@@ -61,6 +63,14 @@ class FadeCalculator extends BaseCalculator {
       pattern_offset_y_end: -0.5,
       pattern_rotate_start: -55,
       pattern_rotate_end: -65,
+    },
+    'M4A1-S': {
+      pattern_offset_x_start: -0.14,
+      pattern_offset_x_end: 0.05,
+      pattern_offset_y_start: 0,
+      pattern_offset_y_end: 0,
+      pattern_rotate_start: -45,
+      pattern_rotate_end: -45,
     },
   };
 }
