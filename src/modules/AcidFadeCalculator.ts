@@ -5,7 +5,9 @@ class AcidFadeCalculator extends BaseCalculator {
     'SSG 08',
   ];
 
-  reversedWeapons = [];
+  reversedWeapons = [
+    'SSG 08',
+  ];
 
   tradeUpWeapons = [
     'SSG 08',

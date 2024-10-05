@@ -34,6 +34,7 @@ class FadeCalculator extends BaseCalculator {
   reversedWeapons = [
     'AWP',
     'Karambit',
+    'MP7',
     'Talon Knife',
   ];
 
