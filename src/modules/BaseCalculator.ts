@@ -99,7 +99,7 @@ abstract class BaseCalculator {
         rawResult = xOffset;
       }
 
-      rawResults.push(Math.abs(rawResult));
+      rawResults.push(rawResult);
     }
 
     const isReversed: boolean = this.reversedWeapons.includes(weapon);
@@ -108,11 +108,11 @@ abstract class BaseCalculator {
     let worstResult: number;
 
     if (isReversed) {
-      bestResult = Math.max(...rawResults);
-      worstResult = Math.min(...rawResults);
-    } else {
       bestResult = Math.min(...rawResults);
       worstResult = Math.max(...rawResults);
+    } else {
+      bestResult = Math.max(...rawResults);
+      worstResult = Math.min(...rawResults);
     }
 
     const resultRange: number = worstResult - bestResult;
