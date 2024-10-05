@@ -96,7 +96,7 @@
 <script>
   const allFadePercentages = FadeCalculator.FadeCalculator.getAllFadePercentages();
 
-  const unsupportedWeapons = ['MP7', 'M4A1-S'];
+  const unsupportedWeapons = [];
 
   const { createApp } = Vue;
 
@@ -125,7 +125,7 @@
       screenshotUrl() {
         const slug = this.weapons[this.activeWeapon].slug;
         const num = Math.round(this.activeFade * 10);
-        const baseUrl = `https://cdn.csgoskins.gg/public/images/fades/v1/${slug}/${num}.png`;
+        const baseUrl = `https://cdn.csgoskins.gg/public/images/fades/v2/${slug}/${num}.png`;
 
         const baseUrl64 = window.btoa(baseUrl)
           .replace(/\+/g, '~')
