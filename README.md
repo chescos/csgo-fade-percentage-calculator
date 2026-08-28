@@ -79,6 +79,7 @@ this package:
 - [GamerPay](https://gamerpay.gg/)
 - [DMarket](https://dmarket.com/)
 - [C5GAME](https://c5game.com/)
+- [SkinSniper](https://skinsniper.com/)
 
 Other sites are currently known to use their own algorithms, probably based on image analysis. These sites come
 to different conclusions about which paint seed corresponds to which fade value, as pixel color analysis is not
